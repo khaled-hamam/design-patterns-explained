@@ -1,0 +1,14 @@
+{
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "A TypeScript Design Patterns Library",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "author": "Khaled Mohamed <Khal3d.Mohamed@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
