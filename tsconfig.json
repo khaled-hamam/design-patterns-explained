@@ -1,12 +1,14 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
-    "module": "esnext",
+    "target": "esnext",
+    "module": "commonjs",
     "outDir": "./build",
     "strict": true,
     "noImplicitAny": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "rootDir": "./library"
   },
   "exclude": ["node_modules"]
 }

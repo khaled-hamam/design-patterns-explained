@@ -4,11 +4,16 @@
   "description": "A TypeScript Design Patterns Library",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc -w"
+    "build:watch": "tsc -w",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "author": "Khaled Mohamed <Khal3d.Mohamed@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
     "typescript": "^3.3.3333"
   }
 }
