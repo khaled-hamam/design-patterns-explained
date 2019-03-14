@@ -19,7 +19,7 @@ Ensures the class has only one instance, and providing a global point of access 
 
 - Singleton: defines a static instance of the class, and a static method to lazy initialize and return this instance.
 
-### Signleton VS Static Methods
+### Singleton VS Static Methods
 
 Singleton Pattern is often misused, as an easy pattern to implement it is often used to replace global or static classes.
 
