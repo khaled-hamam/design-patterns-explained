@@ -1,9 +1,5 @@
-export interface ISingletonLogger {
-  log(): number;
-}
-
-export class SingletonLogger implements ISingletonLogger {
-  protected static _instance: SingletonLogger;
+export class SingletonLogger {
+  protected static _instance: SingletonLogger | undefined = undefined;
 
   protected constructor() {}
 
@@ -21,8 +17,8 @@ export class SingletonLogger implements ISingletonLogger {
   }
 }
 
-export class ExtendedSingletonLogger implements ISingletonLogger {
-  protected static _instance: ExtendedSingletonLogger;
+export class ExtendedSingletonLogger extends SingletonLogger {
+  protected static _instance: ExtendedSingletonLogger | undefined = undefined;
 
   public static get instance(): SingletonLogger {
     if (ExtendedSingletonLogger._instance === undefined) {
