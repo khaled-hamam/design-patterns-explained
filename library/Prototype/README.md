@@ -16,3 +16,4 @@ Specify the kinds of objects to create using a prototypical instance, and create
 - Prototype: defines the interface for cloning
 - ConcretePrototype: implements the operation for cloning itself.
 - Client: creates a new object by asking a prototype to clone itself.
+- Registry: **optional** class that saves the frequently used prototypes, either before compilation, or even in runtime.
