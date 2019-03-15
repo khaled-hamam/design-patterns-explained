@@ -1,4 +1,4 @@
-import { SingletonLogger, ExtendedSingletonLogger } from './example';
+import { SingletonLogger, ExtendedSingletonLogger } from './example_1';
 
 describe('Singleton Pattern', () => {
   it('should get a working instance', () => {

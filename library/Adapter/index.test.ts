@@ -1,5 +1,5 @@
-import { CalculatorAdapter1, ICalculatorAdapter, CalculatorAdapter2 } from './example1';
-import { LegacyRectangle, IShape, Rectangle } from './example2';
+import { CalculatorAdapter1, ICalculatorAdapter, CalculatorAdapter2 } from './example_1';
+import { LegacyRectangle, IShape, Rectangle } from './example_2';
 
 describe('Adapter Pattern', () => {
   describe('Example 1 Tests', () => {
