@@ -10,4 +10,11 @@ describe('Singleton Pattern', () => {
     const extendedLogger: SingletonLogger = ExtendedSingletonLogger.instance;
     expect(extendedLogger.log()).toBe(2);
   });
+
+  it('should return the same instance', () => {
+    const logger: SingletonLogger = SingletonLogger.instance;
+    const logger2: SingletonLogger = SingletonLogger.instance;
+
+    expect(logger === logger2).toBe(true);
+  });
 });
