@@ -1,14 +1,14 @@
 export class SingletonLogger {
-  protected static _instance: SingletonLogger | undefined = undefined;
+  private static _baseInstance: SingletonLogger | undefined = undefined;
 
   protected constructor() {}
 
   public static get instance(): SingletonLogger {
-    if (SingletonLogger._instance === undefined) {
-      SingletonLogger._instance = new SingletonLogger();
+    if (SingletonLogger._baseInstance === undefined) {
+      SingletonLogger._baseInstance = new SingletonLogger();
     }
 
-    return SingletonLogger._instance;
+    return SingletonLogger._baseInstance;
   }
 
   public log(): number {
@@ -18,14 +18,14 @@ export class SingletonLogger {
 }
 
 export class ExtendedSingletonLogger extends SingletonLogger {
-  protected static _instance: ExtendedSingletonLogger | undefined = undefined;
+  protected static _extendedInstance: ExtendedSingletonLogger;
 
   public static get instance(): SingletonLogger {
-    if (ExtendedSingletonLogger._instance === undefined) {
-      ExtendedSingletonLogger._instance = new ExtendedSingletonLogger();
+    if (ExtendedSingletonLogger._extendedInstance === undefined) {
+      ExtendedSingletonLogger._extendedInstance = new ExtendedSingletonLogger();
     }
 
-    return ExtendedSingletonLogger._instance;
+    return ExtendedSingletonLogger._extendedInstance;
   }
 
   public log(): number {
