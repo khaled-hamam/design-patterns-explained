@@ -1,5 +1,5 @@
 export class SingletonLogger {
-  private static _baseInstance: SingletonLogger | undefined = undefined;
+  private static _baseInstance: SingletonLogger;
 
   protected constructor() {}
 
@@ -18,7 +18,7 @@ export class SingletonLogger {
 }
 
 export class ExtendedSingletonLogger extends SingletonLogger {
-  protected static _extendedInstance: ExtendedSingletonLogger;
+  private static _extendedInstance: ExtendedSingletonLogger;
 
   public static get instance(): SingletonLogger {
     if (ExtendedSingletonLogger._extendedInstance === undefined) {
