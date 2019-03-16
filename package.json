@@ -5,8 +5,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
-    "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test": "jest --verbose",
+    "test:watch": "jest --verbose --watchAll"
   },
   "author": "Khaled Mohamed <Khal3d.Mohamed@gmail.com>",
   "license": "ISC",
