@@ -78,7 +78,6 @@ describe('Iterator Pattern', () => {
 
       do {
         const next = iterator.next();
-        console.log(next);
         if (next.done) {
           break;
         } else {
