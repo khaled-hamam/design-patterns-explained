@@ -6,7 +6,7 @@
     "outDir": "./build",
     "strict": true,
     "noImplicitAny": true,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "esModuleInterop": true,
     "rootDir": "./library"
   },
