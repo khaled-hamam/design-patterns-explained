@@ -14,9 +14,9 @@ Provide a simple, unified interface to a set of interfaces in a subsystem. Facad
 
 ## Structure
 
-<center>
+<p align="center">
   <img src="figures/figure_1.png">
-</center>
+</p>
 
 - **Facade:** knows the subsystem classes and what they're responsible for, and delegates the client requests to the appropriate objects in the appropriate order.
 - **Subsystem Classes:** they're the classes that form the subsystem (either a pre-existing package, a 3rd-party library or an API).
