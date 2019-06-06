@@ -39,3 +39,4 @@ lib/*.js
 test/*.js
 build
 *.map
+.vscode
