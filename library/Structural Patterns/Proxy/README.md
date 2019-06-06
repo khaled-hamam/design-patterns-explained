@@ -13,6 +13,7 @@ Provide a substitute or a placeholder for another object to control access to it
 5. When you need to be able to dismiss a heavyweight object once there are no clients that use it.
 
 ### Proxy Types
+
 1. **Remote Proxy**: provide a local representation for an object in a different address space. As in Client-Server apps the Client can encapsulate a Server Service in a proxy to hide the network logic behind the service.
 2. **Virtual Proxy**: creates expensive objects on demand (lazy initialization), also may introduce optimizations to existing functionalities (as caching proxies).
 3. **Protection Proxy**: controls the access to the original object, by putting different access rights on methods (as in role based authorization).
