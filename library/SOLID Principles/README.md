@@ -8,7 +8,7 @@ To fully understand the design patterns, why are they made? and what problems do
 
 1. [Single Responsibility Principle](./Single%20Responsibility.md)
 2. [Open-Closed Principle](./Open-Closed.md)
-3. [Liskov Substitution Principle](./Liskove%20Substitution.md)
+3. [Liskov Substitution Principle](./Liskov%20Substitution.md)
 4. [Interface Segregation Principle](./Interface%20Segregation.md)
 5. [Dependency Inversion Principle](./Dependency%20Inversion.md)
 
