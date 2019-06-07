@@ -29,6 +29,6 @@ Remember that Facade pattern can easily become a **god object** with a lot of ti
 
 |        Source Code        |                UML                |
 | :-----------------------: | :-------------------------------: |
-| [Example 1](example_1.ts) | ![Figure 1](figures/figure_2.png) |
+| [Example 1](example_1.ts) | ![Figure 2](figures/figure_2.png) |
 
 You can find the tests [here](index.test.ts).
