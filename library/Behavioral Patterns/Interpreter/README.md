@@ -35,6 +35,6 @@ As the examples for the interpreter pattern are often complex I'll put some link
 
 |                                                  Example                                                  |
 | :-------------------------------------------------------------------------------------------------------: |
-|    [ٍٍRoman Numerals to Decimal Interpreter](https://www.dofactory.com/net/interpreter-design-pattern)    |
+|     [Roman Numerals to Decimal Interpreter](https://www.dofactory.com/net/interpreter-design-pattern)     |
 | [Calculator Interpreter](http://www.java2s.com/Code/Java/Design-Pattern/InterpreterPatternCalculator.htm) |
 |                [SQL Syntax Interpreter](https://www.baeldung.com/java-interpreter-pattern)                |
