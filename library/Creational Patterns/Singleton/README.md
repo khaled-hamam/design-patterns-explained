@@ -17,6 +17,10 @@ Ensures the class has only one instance, and providing a global point of access 
 
 ### Structure
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - Singleton: defines a static instance of the class, and a static method to lazy initialize and return this instance.
 
 ### Singleton VS Static Methods
@@ -29,3 +33,11 @@ Singleton is used over static classes if most of the reasons to use Singleton is
 2. If polymorphism is going to be used, as we cannot inject static classes as services. Static methods cannot be called from a class instance. Also in a few languages we cannot override static functions in child classes.
 
 If neither reasons applies to our problem, then rethink using the Singleton pattern.
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
