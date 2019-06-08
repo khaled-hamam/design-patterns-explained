@@ -13,7 +13,20 @@ Specify the kinds of objects to create using a prototypical instance, and create
 
 ### Structure
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - Prototype: defines the interface for cloning
 - ConcretePrototype: implements the operation for cloning itself.
 - Client: creates a new object by asking a prototype to clone itself.
 - Registry: **optional** class that saves the frequently used prototypes, either before compilation, or even in runtime.
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+| [Example 2](example_2.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
