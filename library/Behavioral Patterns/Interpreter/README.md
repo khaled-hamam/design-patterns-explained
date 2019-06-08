@@ -29,7 +29,7 @@ As the AST is a tree, the **Composite Pattern** is nearly always used in the **I
 
 **Interpreter Pattern** maybe used to interpret or as we can say translate or change from one form to another, as it can change a normal mathematical equation to a postfix form for example, or even change from roman numerals to normal digits, and this kind of usage to the pattern doesn't always need to build an AST, of course it still needs a tree but it will be one layer deep, so no composite pattern is introduced (as numerals for example doesn't carry children, it consists of one layer only or as we say **TerminalExpression**s only).
 
-## Example
+## Examples
 
 As the examples for the interpreter pattern are often complex I'll put some links from other resources that did a great job in giving examples for the pattern.
 
