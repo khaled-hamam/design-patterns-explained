@@ -13,11 +13,23 @@ Abstract Factory is a creational design pattern that lets you produce families o
 
 ### Structure
 
+<p align="center">
+  <img src="figures/AbstractFactory.png">
+</p>
+
 - Product: declares the interface of the object the factory method will create.
 - ConcreteProduct: implements the Product interface.
 - AbstractFactory: declares the factory methods which returns the objects of type Product.
-- CocnreteFactory: implements the factory methods to return the instances of ConcreteProducts.
+- ConcreteFactory: implements the factory methods to return the instances of ConcreteProducts.
 
 ### Note
 
 Abstract Factory can be mentioned as a Factory of Factories, but this kind of implementation/usage is not mentioned in any of the learning sources used to create this repo (GoF Book / Source Making / Wikipedia).
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
