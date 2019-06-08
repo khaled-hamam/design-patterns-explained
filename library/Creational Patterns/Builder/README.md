@@ -10,7 +10,19 @@ Separates the construction of a complex object from its representation, as that 
 
 ### Structure
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - Builder: defines the interface for creating parts of a product object.
 - ConcreteBuilder: constructs and assembles parts of the product by implementing the Builder interface, also keeps track of the representation it creates, and provides an interface to retrieve it.
 - Director: constructs an object using the builder interface.
 - Product: represents the complex object under construction.
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
