@@ -29,6 +29,8 @@ Encapsulate an operation as on object that contains all information about the op
 
 The invoker is an optional class in sometimes, but most of the times you'll want one place to manage the execution of the commands to keep track of them.
 
+The Command pattern is usually implemented as prototype pattern, if the commands should be cloned before pushed to the history list or at any other point of time **(see Example 1).**
+
 ## Examples
 
 |        Source Code        |  UML   |
