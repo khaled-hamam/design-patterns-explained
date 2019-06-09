@@ -13,6 +13,10 @@ Attach additional responsibilities to an object dynamically. Also provides a fle
 
 ### Structure
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - Component: defines the interface for objects that can have responsibilities added to them dynamically.
 - ConcreteComponent: defines an object to which the additional responsibilities can be attached.
 - Decorator: maintains a reference to a Component object and defines an interface that conforms to Component's interface.
@@ -21,3 +25,12 @@ Attach additional responsibilities to an object dynamically. Also provides a fle
 ### Note
 
 Decotator can be implemented either as an interface or an abstract class, GoF recommend imitting the abstract class as there's no need to define a class when you only need to add one responsibility, and directly merge it by forwarding requests to the component in the ConcreteDecotrators.
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+| [Example 2](example_2.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).

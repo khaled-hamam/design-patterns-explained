@@ -6,7 +6,7 @@ Provide a substitute or a placeholder for another object to control access to it
 
 ### When to use
 
-1. When there's a need for a more vesatile or sphisticated reference to an object than a simple pointer.
+1. When there's a need for a more vesatile or sophisticated reference to an object than a simple pointer.
 2. When you have a heavyweight service object that wastes system resources by being always up, even though you only need it from time to time (Lazy Initialization).
 3. Local execution of a remote service (remote proxy). This is when the service object is located on a remote server.
 4. Caching request results (caching proxy). This is when you need to cache results of client requests and manage the life cycle of this cache, especially if results are quite large.
@@ -21,6 +21,19 @@ Provide a substitute or a placeholder for another object to control access to it
 
 ### Structure
 
-- Subject: defines the common onterface for RealSubject and Proxy so that Proxy can be used anywhere as a RealSubject.
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
+- Subject: defines the common interface for RealSubject and Proxy so that Proxy can be used anywhere as a RealSubject.
 - RealSubject: defines the real object that the proxy represents.
 - Proxy: has a reference field that points to a service object. After the proxy finishes its processing (e.g., lazy initialization, logging, access control, caching, etc.), it passes the request to the service object.
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+| [Example 2](example_2.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
