@@ -21,6 +21,10 @@ Avoid coupling the sender of a request to its receiver by giving more than one o
 - **Handler:** defines an interface for handling requests (can be an abstract class and implement the successor link or some of the common functionality if any).
 - **ConcreteHandler:** handles the request it's responsible for, can access its successor, and should decide if it wants to handle the request or forwards it to the successor.
 
+## Note
+
+Chain of Responsibility can be applied in conjunction with the **Composite Pattern** as the component's parent can act as its successor in the chain (moving backwards).
+
 ## Example
 
 The first example is trying to replicate a basic server as **express**, so the code just gives the needed classes to make a server, the actual handlers are written inside the tests so it's a must to see the tests.
