@@ -11,6 +11,10 @@ Define the skeleton of an algorithm, but deferring some steps to subclasses with
 
 ### Structue
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - AbstractClass: defines the primitive operations that concrete subclasses define to implement steps of an algorithm.
 - ConcreteClass: implements the primitive operations to carry out subclass-specific steps of the algorithm.
 
@@ -21,3 +25,12 @@ Usually AbstractClass will have abstract steps methods that should be implemente
 You may close the overriding of some functions if this is available on the language of implementation.
 
 Template Method is a very good example for Open / Closed Principle.
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+| [Example 2](example_2.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
