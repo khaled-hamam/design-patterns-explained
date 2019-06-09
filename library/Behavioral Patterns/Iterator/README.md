@@ -13,6 +13,10 @@ Provide a way to access the elements of a collection without exposing the underl
 
 ### Structure
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - Iterator: defines an interface for accessing and traversing elements.
 - ConcreteIterator: implements the iterator interface for a certain collection.
 - IterableCollection: defines an interface for creating an iterator object.
@@ -21,3 +25,13 @@ Provide a way to access the elements of a collection without exposing the underl
 ### Notes
 
 Most of the programming languages provide their own ways of implementing iterators. TypeScript (and JS of course) provide an interface for the Iterators, and a Symbol in the class to create the iterators so the Collection will be able to participate in for..of loops (check example 2 and 3). Also generator functions return iterators so they can be used as iterators (Check example 3).
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+| [Example 2](example_2.ts) | _TODO_ |
+| [Example 3](example_3.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).

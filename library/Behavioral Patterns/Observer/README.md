@@ -12,6 +12,10 @@ Defines a dependency (subscription mechanism) to automatically notify multiple o
 
 ### Structure
 
+<p align="center">
+  <img src="figures/figure_1.png">
+</p>
+
 - Subject: knows its observers, provides and interface for attaching, detaching, and maybe notifying the observers.
 - Observer: defines an updating interface for objects that should be notified of changes in a subject.
 - ConcreteSubject: stores state of interest to ConcreteObserver objects, and sends notifications to its observers when its state changes.
@@ -27,3 +31,12 @@ Defines a dependency (subscription mechanism) to automatically notify multiple o
 - **Changing Subject State after Notifying:** when subclassing a subject, we can easily misorder the function calls, so we call the Operation of the base class, then change the state, and forget to Notify the observers. In this case the state is not consistent between Observer, Parent, and Child. To avoid this we can implement the Template Pattern to force the Notify method calling after the update happens, and let subclasses override or even implement the actual logic of the operation.
 - **Specifying modifications of interest explicitly:** you can improve the update efficiency by extending the registration interface to allow registration only for specific events of interests.
 - **Encapsulating complex update logic:** if there's a complex update operation, we can encapsulate it in a ChangeManager that keeps track of the subjects and observers, which observers are attached to which subjects, how and when to notify (this is an implementation of the mediatior pattern).
+
+## Examples
+
+|        Source Code        |  UML   |
+| :-----------------------: | :----: |
+| [Example 1](example_1.ts) | _TODO_ |
+| [Example 2](example_2.ts) | _TODO_ |
+
+You can find the tests [here](index.test.ts).
