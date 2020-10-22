@@ -1,14 +1,16 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2019",
     "module": "commonjs",
     "outDir": "./build",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": false,
     "esModuleInterop": true,
-    "rootDir": "./library"
+    "rootDir": "./library",
+    "noEmit": true,
+    "incremental": true
   },
   "exclude": ["node_modules"]
 }
