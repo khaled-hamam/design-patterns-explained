@@ -16,7 +16,7 @@ In this collection of patterns I'll try as possible to stay away of any ducks an
 
 There's no correct way to consume this content, you can go through the patterns with any order, and if a pattern uses a concept from another pattern, or the example make use of another pattern, I'll make sure to mention it.
 
-I can recommend to read and understand the **[SOLID Principles](./library/SOLID%20principles/README.md)** before moving to any of the patterns.
+I can recommend to read and understand the **[SOLID Principles](./library/SOLID%20Principles/README.md)** before moving to any of the patterns.
 
 You can choose any of the patterns from the **[patterns catalogue](./library/README.md)**.
 
