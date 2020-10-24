@@ -1,2 +1,0 @@
-# Creational Patterns
-
