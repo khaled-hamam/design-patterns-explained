@@ -1,8 +1,8 @@
 # Design Patterns
 
-Design patterns are solutions to some known and frequent occuring problems. A design pattern is not a concrete solution that can be directly implemented to code, instead it's just a description or a template for how to solve a particular problem.
+Design patterns are solutions to some known and frequent occurring problems. A design pattern is not a concrete solution that can be directly implemented to code, instead it's just a description or a template for how to solve a particular problem.
 
-### Classifications
+## Classifications
 
 Design Patterns can be classified to many categories:
 
@@ -13,10 +13,37 @@ Design Patterns can be classified to many categories:
 5. Concurrency Patterns
 6. SQL Patterns
 
-There're many more categories, but the commonly used and mentioned are Creational, Structural, and Behavioral patterns.
+There're many more categories, but the commonly used and mentioned are Creational, Structural, and Behavioral patterns (they are mostly commonly mentioned because this was the classification in the original book of design patterns written by the Gang of Four).
 
-### Criticisms
+## Criticisms
 
 1. Unnecessary code duplication
 2. Patterns are usually a workaround for missing language features
 3. Doesn't differ from other abstractions
+
+## Patterns Catalogue
+
+* **[Creational Patterns](./creational-patterns/README.md)**
+  * [Prototype Pattern](./creational-patterns/prototype/README.md)
+  * [Factory Pattern](./creational-patterns/factory/README.md)
+  * [Singleton Pattern](./creational-patterns/singleton/README.md)
+  * [Builder Pattern](./creational-patterns/builder/README.md)
+  * [Abstract Factory Pattern](./creational-patterns/abstract-factory/README.md)
+* **[Behavioral Patterns](./behavioral-patterns/README.md)**
+  * [Chain of Responsibility Pattern](./behavioral-patterns/chain-of-responsibility/README.md)
+  * [Memento Pattern](./behavioral-patterns/memento/README.md)
+  * [Interpreter Pattern](./behavioral-patterns/interpreter/README.md)
+  * [Template Method Pattern](./behavioral-patterns/template-method/README.md)
+  * [Prototype Pattern](./behavioral-patterns/iterator/README.md)
+  * [Command Pattern](./behavioral-patterns/command/README.md)
+  * [Visitor Pattern](./behavioral-patterns/visitor/README.md)
+  * [Observer Pattern](./behavioral-patterns/observer/README.md)
+  * [State Pattern](./behavioral-patterns/state/README.md)
+* **[Structural Patterns](./structural-patterns/README.md)**
+  * [Decorator Pattern](./structural-patterns/decorator/README.md)
+  * [Bridge Pattern](./structural-patterns/bridge/README.md)
+  * [Composite Pattern](./structural-patterns/composite/README.md)
+  * [Flyweight Pattern](./structural-patterns/flyweight/README.md)
+  * [Proxy Pattern](./structural-patterns/proxy/README.md)
+  * [Adapter Pattern](./structural-patterns/adapter/README.md)
+  * [Facade Pattern](./structural-patterns/facade/README.md)

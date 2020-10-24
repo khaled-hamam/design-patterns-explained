@@ -4,7 +4,7 @@
 There should never be more than one reason for a class to change.
 
 **Wikipedia's Definition:**
-every module, class, or function should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
+Every module, class, or function should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class.
 
 - Requirements changes typically map to responsibilities
 - More responsibilities in a class == The class is more likely to have changes
