@@ -1,16 +1,16 @@
 # Observer Pattern
 
-### Intent
+## Intent
 
 Defines a dependency (subscription mechanism) to automatically notify multiple objects (dependents) about any events that happen to the object they're observing.
 
-### When to use
+## When to use
 
 1. When changes to the state of one object may require changing other objects, and the actual set of objects is unknown beforehand or changes dynamically (you don't know who or how many should change).
 2. When some objects in your app must observe others, but only for a limited time or in specific cases.
 3. When an object should be able to notify other objects without assuming who these objects are (not tightly coupled).
 
-### Structure
+## Structure
 
 <p align="center">
   <img src="figures/figure_1.png">
@@ -21,7 +21,7 @@ Defines a dependency (subscription mechanism) to automatically notify multiple o
 - ConcreteSubject: stores state of interest to ConcreteObserver objects, and sends notifications to its observers when its state changes.
 - ConcreteObserver: maintains a reference to ConcreteSubject object, stores the state, and implements the Observer updating interface to keep its state consistent with the subject's.
 
-### Notes
+## Notes
 
 - **More than one subject to observe:** Sometimes the Observer needs to Observe more than one subject, in this case it's needed to extend the update interface to let the Observer know which subject is sending the notification.
 - **Who should trigger the update?** there're two ways to trigger them:

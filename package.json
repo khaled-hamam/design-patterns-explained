@@ -6,13 +6,15 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "test": "jest --verbose",
-    "test:watch": "jest --verbose --watchAll"
+    "test:watch": "jest --verbose --watchAll",
+    "lint": "markdownlint '**/*.md' --ignore node_modules"
   },
   "author": "Khaled Mohamed <Khal3d.Mohamed@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "jest": "^26.6.0",
+    "markdownlint-cli": "^0.24.0",
     "ts-jest": "^26.4.1",
     "typescript": "^4.0.3"
   }

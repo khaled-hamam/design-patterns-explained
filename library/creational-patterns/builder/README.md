@@ -2,13 +2,13 @@
 
 Separates the construction of a complex object from its representation, as that the same construction process can create different representations.
 
-### When to use
+## When to use
 
 1. The algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled.
 2. The construction process must allow different representations for the object that's constructed.
 3. You want to get rid of a "telescopic constructor".
 
-### Structure
+## Structure
 
 <p align="center">
   <img src="figures/figure_1.png">
