@@ -1,4 +1,4 @@
-# Single Responsiblity Principle
+# Single Responsibility Principle
 
 **Robert C. Martin's Definition:**
 There should never be more than one reason for a class to change.
