@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 ![Design Patterns Explained.](https://user-images.githubusercontent.com/24835522/96385851-d61e2b00-1196-11eb-8c7f-b608bf1ff05b.png)
 
 ***
@@ -49,6 +50,12 @@ $ npm run test:watch
 
 # Running tests for a certain pattern
 $ npm run test <pattern-folder-name>
+
+# Running Linting on Markdown Files
+$ npm run lint
+
+# Auto Fix basic errors in Markdown
+$ npm run lint -- --fix
 ```
 
 ## Learning Sources

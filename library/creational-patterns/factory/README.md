@@ -1,15 +1,15 @@
 # Factory Pattern
 
-### Intent
+## Intent
 
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
-### When to use
+## When to use
 
 1. You can't know the type of object you want to create until runtime.
 2. You want to encapsulate the object creation logic if some complexity or business logic takes place, or for easier extraction and modification later on.
 
-### Structure
+## Structure
 
 <p align="center">
   <img src="figures/figure_1.png">
@@ -20,7 +20,7 @@ Factory Method is a creational design pattern that provides an interface for cre
 - Creator: declares the factory method which returns an object of type Product, it may also implement a basic factory method which can be overriden by subclasses.
 - ConcreteCreator: implements the factory method to return an instance of a ConcreteProduct.
 
-### Implementation
+## Implementation
 
 Factory method can have 2 types of implementations:
 
@@ -35,4 +35,3 @@ Factory method can have 2 types of implementations:
 | [Example 2](example_2.ts) | _TODO_ |
 
 You can find the tests [here](index.test.ts).
-

@@ -1,10 +1,10 @@
 # Singleton Pattern
 
-### Intent
+## Intent
 
 Ensures the class has only one instance, and providing a global point of access to it.
 
-### When to use
+## When to use
 
 1. When we need only one or a certain ammount of instances of the class.
 2. When lazy Initialization is needed.
@@ -15,7 +15,7 @@ Ensures the class has only one instance, and providing a global point of access 
    - An instance is required to achieve polymorphism in run-time.
 4. When we want to avoid clutter in the global namespace.
 
-### Structure
+## Structure
 
 <p align="center">
   <img src="figures/figure_1.png">
@@ -23,7 +23,7 @@ Ensures the class has only one instance, and providing a global point of access 
 
 - Singleton: defines a static instance of the class, and a static method to lazy initialize and return this instance.
 
-### Singleton VS Static Methods
+## Singleton VS Static Methods
 
 Singleton Pattern is often misused, as an easy pattern to implement it is often used to replace global or static classes.
 

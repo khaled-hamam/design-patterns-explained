@@ -2,13 +2,13 @@
 
 Decouples an abstraction from its implementation so that the two can vary independently.
 
-### When to use
+## When to use
 
 1. You want to decouple a huge monolithic class that's responsible for many things.
 2. You want to avoid permenent binding between an abstraction and its implementation, especially when the implementation can be switched at run-time.
 3. You want to avoid making many subclasses for each implementation if the abstraction is the same but has more than a valid implementation.
 
-### Structure
+## Structure
 
 <p align="center">
   <img src="figures/figure_1.png">
@@ -19,7 +19,7 @@ Decouples an abstraction from its implementation so that the two can vary indepe
 - Implementor: defines the interface for implementation classes, usually the Implementor provides only primitive (low-level) operations, and then the Abstraction do a higher-level operation based on there primitives.
 - ConcreteImplementor: implements the Implementor interface and defines its concrete implementation.
 
-### Note
+## Note
 
 - Be careful as the more cohesive the class is, the harder it becomes to implement the bridge pattern and may introduce more complexity.
 - The pattern is a great example for Single Responsibility Principle, as it decouples the different functionalities to its own interfaces and implementations.

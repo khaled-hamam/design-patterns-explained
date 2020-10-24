@@ -1,17 +1,17 @@
 # Prototype Pattern
 
-### Intent
+## Intent
 
 Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype instead of depending on the **new** operator.
 
-### When to use
+## When to use
 
 1. When the object instantiation from the beginning takes a lot of time.
 2. When we want to specify an instance of the class to use it as a breeder of all future instances.
 3. To avoid building a class hierarchy (seperate classes or factories) that parallels the class hierarchy of the products.
 4. If we want to instantiate the same class with a minimal change of state, it's more appropriate to clone the instance and change its state to the required state.
 
-### Structure
+## Structure
 
 <p align="center">
   <img src="figures/figure_1.png">
