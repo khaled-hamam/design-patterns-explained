@@ -30,6 +30,6 @@ Applying this pattern can be overkill if a state machine has only a few states o
 
 |        Source Code        |  UML   |
 | :-----------------------: | :----: |
-| [Example 1](example_1.ts) | _TODO_ |
+| [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

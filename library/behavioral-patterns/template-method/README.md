@@ -30,7 +30,7 @@ Template Method is a very good example for Open / Closed Principle.
 
 |        Source Code        |  UML   |
 | :-----------------------: | :----: |
-| [Example 1](example_1.ts) | _TODO_ |
-| [Example 2](example_2.ts) | _TODO_ |
+| [Example 1](example_1.ts) | // TODO |
+| [Example 2](example_2.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).
