@@ -33,6 +33,6 @@ I'll be using the same example from the **Command Pattern** (while adding the Me
 
 |        Source Code        |  UML   |
 | :-----------------------: | :----: |
-| [Example 1](example_1.ts) | _TODO_ |
+| [Example 1](example_1.ts) |// TODO |
 
 You can find the tests [here](index.test.ts).

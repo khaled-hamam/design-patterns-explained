@@ -27,6 +27,6 @@ In modern designs of the patterns this is ommitted, but the GoF justifies this a
 
 |        Source Code        |  UML   |
 | :-----------------------: | :----: |
-| [Example 1](example_1.ts) | _TODO_ |
+| [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

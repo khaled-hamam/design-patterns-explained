@@ -33,6 +33,6 @@ Please note that I decided to go with an approach that better suits TypeScript, 
 
 |        Source Code        |  UML   |
 | :-----------------------: | :----: |
-| [Example 1](example_1.ts) | _TODO_ |
+| [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).
