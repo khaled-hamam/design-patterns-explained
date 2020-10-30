@@ -3,7 +3,7 @@
 **Definition:**
 Clients should not be forced to depend on methods they do not use.
 
-- Prefer Small cohesive interfaces than fat interfaces.
+- Prefer Small cohesive interfaces to fat interfaces.
 - If there’s a class that implements a part of the interface, then the interface should be split into smaller interfaces that can be used separately.
 
 ## Example
@@ -39,8 +39,8 @@ class EmployeeService implements ICRUDService<Employee> {
 
 Now let's see the problems introduced in this example:
 
-- The EmployeeService is a Read-Only Service which obviously doesn't need to implemented the bloated ICRUDService interface.
-- The EmployeeService now violates LSP as there are methods which aren't implemented.
+- The EmployeeService is a Read-Only Service which obviously doesn't need to be implemented the bloated ICRUDService interface.
+- The EmployeeService now violates LSP as there are methods that aren't implemented.
 
 ## Solution
 
@@ -64,4 +64,4 @@ class EmployeeService implements IReadService<Employee> {
 }
 ```
 
-Now we separated the Read Interface from the Write Interface so a service can be a Read-Only, a Write-Only, or even a Read/Write Service.
+Now we separated the Read Interface from the Write Interface so service can be a Read-Only, a Write-Only, or even a Read/Write Service.

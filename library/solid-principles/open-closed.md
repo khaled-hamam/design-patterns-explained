@@ -3,8 +3,8 @@
 **Definition:**
 Software modules should be open for extension but closed for modification.
 
-- The modules should accept changes and extensions through adding new classes not by changing existing ones.
-- We can rely on abstractions instead of concrete classes to achieve this principle as we can implement infinite number of these abstractions without any problem.
+- The modules should accept changes and extensions by adding new classes not by changing existing ones.
+- We can rely on abstractions instead of concrete classes to achieve this principle as we can implement an infinite number of these abstractions without any problem.
 - Changes to the already existing code is not accepted.
 
 ## Example
@@ -47,7 +47,7 @@ class TaxCalculator {
 
 Now let's see the problems introduced in this example:
 
-- The rules for tax calculation can be changed in the future as new product type are introduced, and this will require changes to the already existing class TaxCalculator.
+- The rules for tax calculation can be changed in the future as new product types are introduced, and this will require changes to the already existing class TaxCalculator.
 
 ## Solution
 
@@ -110,6 +110,6 @@ class TaxCalculator {
 }
 ```
 
-Now we've applied O/C Principle by minimizing as possible the existing code that should be changed when applying a new TaxRule, so we're sure the minimal side effects of any extension in the future.
+Now we've applied O/C Principle by minimizing as possible the existing code that should be changed when applying a new TaxRule, so we're sure of the minimal side effects of any extension in the future.
 
-Remember that O/C Principle can be very frustrating and time consuming principle to apply, so don't usually apply it if you don't see a frequent change in a module, also you can skip applying it for the first time the module is extended, but of course take the time to refactor the module to apply the O/C Principle in the second time there's a change.
+Remember that O/C Principle can be a very frustrating and time-consuming principle to apply, so don't usually apply it if you don't see a frequent change in a module, also you can skip applying it for the first time the module is extended, but of course, take the time to refactor the module to apply the O/C Principle in the second time there's a change.
