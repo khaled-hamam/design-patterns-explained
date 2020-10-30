@@ -39,7 +39,7 @@ class EmployeeService implements ICRUDService<Employee> {
 
 Now let's see the problems introduced in this example:
 
-- The EmployeeService is a Read-Only Service which obviously doesn't need to be implemented the bloated ICRUDService interface.
+- The EmployeeService is a Read-Only Service which obviously doesn't need to implement the bloated ICRUDService interface.
 - The EmployeeService now violates LSP as there are methods that aren't implemented.
 
 ## Solution
