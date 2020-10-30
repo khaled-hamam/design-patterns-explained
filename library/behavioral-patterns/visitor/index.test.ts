@@ -1,4 +1,10 @@
-import { Investor, BankAccount, RealEstate, MarketValueVisitor, MonthlyIncomeVisitor } from './example_1';
+import {
+  Investor,
+  BankAccount,
+  RealEstate,
+  MarketValueVisitor,
+  MonthlyIncomeVisitor,
+} from './example_1';
 
 describe('Visitor Pattern', () => {
   describe('Example 1 Tests', () => {
@@ -8,7 +14,7 @@ describe('Visitor Pattern', () => {
       investor = new Investor('Khaled', [
         new BankAccount(1000, 0.12),
         new BankAccount(3000, 0.09),
-        new RealEstate(9000, 100)
+        new RealEstate(9000, 100),
       ]);
     });
 

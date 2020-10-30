@@ -21,8 +21,8 @@ Separates the construction of a complex object from its representation, as that 
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

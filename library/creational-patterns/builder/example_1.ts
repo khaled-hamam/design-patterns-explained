@@ -92,7 +92,7 @@ export class NormalGameMapBuilder implements GameMapBuilder {
     this._gameMap.enemies = [
       new Enemy('Enemy 1', 10),
       new Enemy('Enemy 2', 20),
-      new Enemy('Enemy 3', 30)
+      new Enemy('Enemy 3', 30),
     ];
   }
 
@@ -101,7 +101,7 @@ export class NormalGameMapBuilder implements GameMapBuilder {
       new NormalBuilding(0, 0),
       new NormalBuilding(0, 0),
       new NormalBuilding(0, 0),
-      new NormalBuilding(0, 0)
+      new NormalBuilding(0, 0),
     ];
   }
 }
@@ -135,7 +135,7 @@ export class CollapsedGameMapBuilder implements GameMapBuilder {
     this._gameMap.enemies = [
       new Enemy('Enemy 1', 10),
       new Enemy('Enemy 2', 20),
-      new Enemy('Enemy 3', 30)
+      new Enemy('Enemy 3', 30),
     ];
   }
 
@@ -144,7 +144,7 @@ export class CollapsedGameMapBuilder implements GameMapBuilder {
       new CollapsedBuilding(0, 0),
       new CollapsedBuilding(0, 0),
       new CollapsedBuilding(0, 0),
-      new CollapsedBuilding(0, 0)
+      new CollapsedBuilding(0, 0),
     ];
   }
 }
@@ -160,7 +160,11 @@ export class GameMapDirector {
     this._builder = builder;
   }
 
-  public constructGameMap(area: number, difficulty: number, hasEnemies: boolean): GameMap {
+  public constructGameMap(
+    area: number,
+    difficulty: number,
+    hasEnemies: boolean
+  ): GameMap {
     this._builder.setOptions(area, difficulty);
     this._builder.buildHero();
     if (hasEnemies) {

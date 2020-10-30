@@ -1,4 +1,8 @@
-import { GameMapDirector, CollapsedGameMapBuilder, NormalGameMapBuilder } from './example_1';
+import {
+  GameMapDirector,
+  CollapsedGameMapBuilder,
+  NormalGameMapBuilder,
+} from './example_1';
 
 describe('Builder Pattern', () => {
   it('should create a collapsed map', () => {

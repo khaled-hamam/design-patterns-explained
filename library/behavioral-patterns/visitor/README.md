@@ -39,8 +39,8 @@ Also the double dispatch helps to remove the nightmare of if conditions to choos
 
 Remember that TypeScript doesn't support **method overloading** so the visitor will have the different overloads as different names.
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

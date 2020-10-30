@@ -1,11 +1,18 @@
 import { Currency, CurrencyExchangeObserver } from './example_1';
-import { WeatherService, EmailNotificationListener, PushNotificationListener } from './example_2';
+import {
+  WeatherService,
+  EmailNotificationListener,
+  PushNotificationListener,
+} from './example_2';
 
 describe('Observer Pattern', () => {
   describe('Example 1 Tests', () => {
     it('should change the currency value dynamically', () => {
       const valueInEGP = new Currency();
-      const dollarExchangeObserver = new CurrencyExchangeObserver(18, valueInEGP);
+      const dollarExchangeObserver = new CurrencyExchangeObserver(
+        18,
+        valueInEGP
+      );
       valueInEGP.attach(dollarExchangeObserver);
 
       valueInEGP.value = 10;
@@ -14,7 +21,10 @@ describe('Observer Pattern', () => {
 
     it('should detach successfuly', () => {
       const valueInEGP = new Currency();
-      const dollarExchangeObserver = new CurrencyExchangeObserver(18, valueInEGP);
+      const dollarExchangeObserver = new CurrencyExchangeObserver(
+        18,
+        valueInEGP
+      );
       valueInEGP.attach(dollarExchangeObserver);
 
       valueInEGP.value = 20;

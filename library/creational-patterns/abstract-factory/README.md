@@ -28,8 +28,8 @@ Abstract Factory can be mentioned as a Factory of Factories, but this kind of im
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

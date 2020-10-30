@@ -28,8 +28,8 @@ Template Method is a very good example for Open / Closed Principle.
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 | [Example 2](example_2.ts) | // TODO |
 

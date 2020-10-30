@@ -19,7 +19,7 @@ class EventManager {
 
   public unsubscribe(eventType: string, listener: Observer) {
     let listeners = this._listeners.get(eventType);
-    listeners = listeners.filter(l => l !== listener);
+    listeners = listeners.filter((l) => l !== listener);
     this._listeners.set(eventType, listeners);
   }
 

@@ -31,8 +31,8 @@ The first example is trying to replicate a basic server as **express**, so the c
 
 Please note that I decided to go with an approach that better suits TypeScript, it may not be good to implement it this way in a more object-oriented language, but the example can be easily refactored to depend on **ConcreteHandlers** and overriding their handle method instead of relying on a callback that's sent from the client code (depending on extending the Base Class of the Handler to create classes instead of objects for short).
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

@@ -28,8 +28,8 @@ Most of the programming languages provide their own ways of implementing iterato
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 | [Example 2](example_2.ts) | // TODO |
 | [Example 3](example_3.ts) | // TODO |

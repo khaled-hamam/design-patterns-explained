@@ -1,5 +1,11 @@
 import { Button, Border, Shadow } from './example_1';
-import { Vanilla, Espresso, Coffee, Chocolate, AmericanCoffee } from './example_2';
+import {
+  Vanilla,
+  Espresso,
+  Coffee,
+  Chocolate,
+  AmericanCoffee,
+} from './example_2';
 
 describe('Decorator Pattern', () => {
   describe('Example 1 Tests', () => {
@@ -34,7 +40,9 @@ describe('Decorator Pattern', () => {
     });
 
     it('should make a double vanilla american coffee', () => {
-      const doubleVanilla: Coffee = new Vanilla(new Vanilla(new AmericanCoffee()));
+      const doubleVanilla: Coffee = new Vanilla(
+        new Vanilla(new AmericanCoffee())
+      );
 
       expect(doubleVanilla.price).toBe(50);
     });
