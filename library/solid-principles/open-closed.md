@@ -99,7 +99,7 @@ class TaxCalculator {
     this._rules = new Map<string, TaxRule>([
       ['CLOTH', new ClothTaxRule()],
       ['ELECTRONIC', new ElectronicTaxRule()],
-      ['BOOK', new BookTaxRule()]
+      ['BOOK', new BookTaxRule()],
     ]);
   }
 

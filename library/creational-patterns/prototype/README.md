@@ -24,8 +24,8 @@ Specify the kinds of objects to create using a prototypical instance, and create
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 | [Example 2](example_2.ts) | // TODO |
 

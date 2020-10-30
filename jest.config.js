@@ -3,9 +3,9 @@ module.exports = {
   preset: 'ts-jest',
   globals: {
     'ts-jest': {
-      tsConfig: 'tsconfig.json'
-    }
+      tsConfig: 'tsconfig.json',
+    },
   },
   testMatch: ['**/*.test.ts'],
-  roots: ['./library']
+  roots: ['./library'],
 };

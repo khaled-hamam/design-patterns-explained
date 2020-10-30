@@ -28,8 +28,8 @@ Decotator can be implemented either as an interface or an abstract class, GoF re
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 | [Example 2](example_2.ts) | // TODO |
 

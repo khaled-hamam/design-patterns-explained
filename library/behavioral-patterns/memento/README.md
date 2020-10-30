@@ -31,8 +31,8 @@ Memento's implementation is highly reliable on the languages that allow **intern
 
 I'll be using the same example from the **Command Pattern** (while adding the Memento Pattern) to show the usage of Command with Memento.
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
-| [Example 1](example_1.ts) |// TODO |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
+| [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

@@ -38,7 +38,7 @@ export class Server {
   }
 
   public getUser(email: string) {
-    return this._users.find(user => user.email === email);
+    return this._users.find((user) => user.email === email);
   }
 
   public attach(chainName: string, handler: Handler) {

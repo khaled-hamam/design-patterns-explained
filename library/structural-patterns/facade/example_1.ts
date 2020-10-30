@@ -16,7 +16,7 @@ class UserRepository {
   private constructor() {}
 
   public find(user: User) {
-    return this._users.find(dbUser => dbUser.email === user.email);
+    return this._users.find((dbUser) => dbUser.email === user.email);
   }
 
   public create(user: User) {

@@ -31,8 +31,8 @@ Provide a substitute or a placeholder for another object to control access to it
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 | [Example 2](example_2.ts) | // TODO |
 

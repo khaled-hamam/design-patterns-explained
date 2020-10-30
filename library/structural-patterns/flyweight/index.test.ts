@@ -10,7 +10,13 @@ describe('Flyweight Pattern', () => {
 
       for (let i = 0; i < 20; ++i) {
         const particle = factory.getParticle(texture, color);
-        particles.push(new ParticleContext(Math.random() * 100, Math.random() * 100, particle));
+        particles.push(
+          new ParticleContext(
+            Math.random() * 100,
+            Math.random() * 100,
+            particle
+          )
+        );
       }
 
       expect(Particle.objectCount).toBe(1);

@@ -22,7 +22,9 @@ describe('Prototype Pattern', () => {
       expect(myCustomButton === customButtonClone).toBe(false);
       expect(myCustomButton.color === customButtonClone.color).toBe(true);
       expect(myCustomButton.size === customButtonClone.size).toBe(true);
-      expect(myCustomButton.isRounded === customButtonClone.isRounded).toBe(true);
+      expect(myCustomButton.isRounded === customButtonClone.isRounded).toBe(
+        true
+      );
     });
 
     it('should clone in runtime without registry', () => {
@@ -32,7 +34,9 @@ describe('Prototype Pattern', () => {
       expect(myCustomButton === customButtonClone).toBe(false);
       expect(myCustomButton.color === customButtonClone.color).toBe(true);
       expect(myCustomButton.size === customButtonClone.size).toBe(true);
-      expect(myCustomButton.isRounded === customButtonClone.isRounded).toBe(true);
+      expect(myCustomButton.isRounded === customButtonClone.isRounded).toBe(
+        true
+      );
     });
   });
 

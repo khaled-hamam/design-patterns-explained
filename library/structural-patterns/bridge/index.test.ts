@@ -9,7 +9,9 @@ describe('Bridge Pattern', () => {
 
     it('should draw a rectangle using OpenGL', () => {
       const rectangle = new Rectangle(5, 5, new OpenGL());
-      expect(rectangle.draw()).toBe('Drawing a Rectangle, on (5, 5) using OpenGL');
+      expect(rectangle.draw()).toBe(
+        'Drawing a Rectangle, on (5, 5) using OpenGL'
+      );
     });
 
     it('should draw a circle using DirectX', () => {
@@ -19,7 +21,9 @@ describe('Bridge Pattern', () => {
 
     it('should draw a rectangle using DirectX', () => {
       const rectangle = new Rectangle(6, 5, new DirectX());
-      expect(rectangle.draw()).toBe('Drawing a Rectangle, on (6, 5) using DirectX');
+      expect(rectangle.draw()).toBe(
+        'Drawing a Rectangle, on (6, 5) using DirectX'
+      );
     });
   });
 });
