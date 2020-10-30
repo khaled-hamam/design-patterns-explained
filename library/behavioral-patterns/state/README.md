@@ -28,8 +28,8 @@ Applying this pattern can be overkill if a state machine has only a few states o
 
 ## Examples
 
-|        Source Code        |  UML   |
-| :-----------------------: | :----: |
+|        Source Code        |   UML   |
+| :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).

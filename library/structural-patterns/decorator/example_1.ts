@@ -4,7 +4,7 @@ export interface GUIElement {
 
 export class Button implements GUIElement {
   draw(): string {
-    return 'Button';
+    return "Button";
   }
 }
 
@@ -26,7 +26,7 @@ export class Border extends Decorator {
   }
 
   draw(): string {
-    return super.draw() + ', Border';
+    return super.draw() + ", Border";
   }
 }
 
@@ -36,6 +36,6 @@ export class Shadow extends Decorator {
   }
 
   draw(): string {
-    return super.draw() + ', Shadow';
+    return super.draw() + ", Shadow";
   }
 }

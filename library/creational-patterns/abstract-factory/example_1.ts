@@ -13,25 +13,25 @@ export interface GUIFactory {
 
 class MacButton implements Button {
   public click() {
-    return 'Mac Button';
+    return "Mac Button";
   }
 }
 
 class WindowsButton implements Button {
   public click() {
-    return 'Windows Button';
+    return "Windows Button";
   }
 }
 
 class MacAlert implements Alert {
   public alert() {
-    return 'Mac Alert';
+    return "Mac Alert";
   }
 }
 
 class WindowsAlert implements Alert {
   public alert() {
-    return 'Windows Alert';
+    return "Windows Alert";
   }
 }
 

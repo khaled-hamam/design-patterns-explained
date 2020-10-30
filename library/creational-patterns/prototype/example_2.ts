@@ -7,7 +7,7 @@ export class WebPage implements IClonable {
 
   public constructor() {
     // Time Consuming Logic
-    this.content = 'Page Loaded';
+    this.content = "Page Loaded";
   }
 
   clone(): WebPage {

@@ -1,25 +1,31 @@
-import { Investor, BankAccount, RealEstate, MarketValueVisitor, MonthlyIncomeVisitor } from './example_1';
+import {
+  Investor,
+  BankAccount,
+  RealEstate,
+  MarketValueVisitor,
+  MonthlyIncomeVisitor,
+} from "./example_1";
 
-describe('Visitor Pattern', () => {
-  describe('Example 1 Tests', () => {
+describe("Visitor Pattern", () => {
+  describe("Example 1 Tests", () => {
     let investor: Investor;
 
     beforeAll(() => {
-      investor = new Investor('Khaled', [
+      investor = new Investor("Khaled", [
         new BankAccount(1000, 0.12),
         new BankAccount(3000, 0.09),
-        new RealEstate(9000, 100)
+        new RealEstate(9000, 100),
       ]);
     });
 
-    it('should calculate market value correctly', () => {
+    it("should calculate market value correctly", () => {
       const visitor = new MarketValueVisitor();
       investor.accept(visitor);
 
       expect(visitor.value).toBe(13000);
     });
 
-    it('should calculate monthly income correctly', () => {
+    it("should calculate monthly income correctly", () => {
       const visitor = new MonthlyIncomeVisitor();
       investor.accept(visitor);
 

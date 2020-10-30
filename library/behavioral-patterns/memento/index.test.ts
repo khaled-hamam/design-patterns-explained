@@ -1,7 +1,7 @@
-import { Editor, CommandInvoker, PasteCommand, CopyCommand } from './example_1';
+import { Editor, CommandInvoker, PasteCommand, CopyCommand } from "./example_1";
 
-describe('Memento Pattern', () => {
-  describe('Example 1 Tests', () => {
+describe("Memento Pattern", () => {
+  describe("Example 1 Tests", () => {
     let editor: Editor;
     let invoker: CommandInvoker;
     let pasteCommand: PasteCommand;
@@ -12,9 +12,9 @@ describe('Memento Pattern', () => {
       pasteCommand = new PasteCommand(editor);
     });
 
-    it('should undo correctly', () => {
-      const copiedOne = 'Copied Text One';
-      const copiedTwo = 'Copied Text Two';
+    it("should undo correctly", () => {
+      const copiedOne = "Copied Text One";
+      const copiedTwo = "Copied Text Two";
 
       let copyCommand = new CopyCommand(editor, copiedOne);
       invoker.execute(copyCommand);
@@ -28,7 +28,7 @@ describe('Memento Pattern', () => {
       expect(editor.text).toBe(copiedOne);
 
       invoker.undo();
-      expect(editor.text).toBe('');
+      expect(editor.text).toBe("");
     });
   });
 });

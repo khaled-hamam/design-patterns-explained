@@ -24,7 +24,7 @@ class Employee {
 
   public set salary(value) {
     if (salary < 0) {
-      throw new Error('Salary can not be negative');
+      throw new Error("Salary can not be negative");
     }
 
     this._salary = salary;
@@ -68,7 +68,7 @@ class Employee {
     if (this.validator.isValidSalary(salary)) {
       this._salary = salary;
     } else {
-      throw new Error('Invalid salary.');
+      throw new Error("Invalid salary.");
     }
   }
 }

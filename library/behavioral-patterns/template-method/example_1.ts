@@ -47,7 +47,7 @@ export class Facebook extends SocialNetwork {
 
   protected logIn(): boolean {
     // authenticating the user
-    if (this._username === 'Khaled' && this._password === '123') {
+    if (this._username === "Khaled" && this._password === "123") {
       return true;
     } else {
       return false;
@@ -66,13 +66,13 @@ export class Facebook extends SocialNetwork {
   protected onLogIn() {
     // We'll make this hook an impure function
     // It's a bad practice but just for testing.
-    this._username = 'Logged In Facebook';
+    this._username = "Logged In Facebook";
   }
 
   protected onLogOut() {
     // We'll make this hook an impure function
     // It's a bad practice but just for testing.
-    this._password = 'Logged Out Facebook';
+    this._password = "Logged Out Facebook";
   }
 }
 
@@ -85,7 +85,7 @@ export class Twitter extends SocialNetwork {
 
   protected logIn(): boolean {
     // authenticating the user
-    if (this._username === 'Twitter' && this._password === '1234') {
+    if (this._username === "Twitter" && this._password === "1234") {
       return true;
     } else {
       return false;

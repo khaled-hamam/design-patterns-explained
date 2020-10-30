@@ -1,21 +1,25 @@
-import { CalculatorAdapter1, ICalculatorAdapter, CalculatorAdapter2 } from './example_1';
-import { LegacyRectangle, IShape, Rectangle } from './example_2';
+import {
+  CalculatorAdapter1,
+  ICalculatorAdapter,
+  CalculatorAdapter2,
+} from "./example_1";
+import { LegacyRectangle, IShape, Rectangle } from "./example_2";
 
-describe('Adapter Pattern', () => {
-  describe('Example 1 Tests', () => {
-    it('should calculate correctly with adapter 1', () => {
+describe("Adapter Pattern", () => {
+  describe("Example 1 Tests", () => {
+    it("should calculate correctly with adapter 1", () => {
       const calculator: ICalculatorAdapter = new CalculatorAdapter1();
       expect(calculator.sum(1, 2)).toBe(3);
     });
 
-    it('should calculate correctly with adapter 2', () => {
+    it("should calculate correctly with adapter 2", () => {
       const calculator: ICalculatorAdapter = new CalculatorAdapter2();
       expect(calculator.sum(1, 2)).toBe(3);
     });
   });
 
-  describe('Example 2 Tests', () => {
-    it('should adapt LegacyRectangle to Shape Interface', () => {
+  describe("Example 2 Tests", () => {
+    it("should adapt LegacyRectangle to Shape Interface", () => {
       const legacyRect: LegacyRectangle = new LegacyRectangle();
       const newRect: IShape = new Rectangle();
 

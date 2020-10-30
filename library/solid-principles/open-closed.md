@@ -33,11 +33,11 @@ class TaxCalculator {
     const type = product.type;
     const price = product.price;
 
-    if (type === 'CLOTH') {
+    if (type === "CLOTH") {
       return price * 1.5;
-    } else if (type === 'ELECTRONIC') {
+    } else if (type === "ELECTRONIC") {
       return price * 1.3;
-    } else if (type === 'BOOK') {
+    } else if (type === "BOOK") {
       return price * 1.1;
     }
     // Other rules may be added!
@@ -97,9 +97,9 @@ class TaxCalculator {
 
   public constructor() {
     this._rules = new Map<string, TaxRule>([
-      ['CLOTH', new ClothTaxRule()],
-      ['ELECTRONIC', new ElectronicTaxRule()],
-      ['BOOK', new BookTaxRule()]
+      ["CLOTH", new ClothTaxRule()],
+      ["ELECTRONIC", new ElectronicTaxRule()],
+      ["BOOK", new BookTaxRule()],
     ]);
   }
 

@@ -19,7 +19,7 @@ class ListIterator<T> implements MyIterator {
     if (this._currentIndex < this._list.length) {
       return this._list[this._currentIndex++];
     } else {
-      throw 'Has no next!';
+      throw "Has no next!";
     }
   }
 

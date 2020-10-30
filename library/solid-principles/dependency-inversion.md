@@ -29,7 +29,7 @@ class UserService {
     // registration logic
 
     const notificationService = new NotificationService();
-    notificationService.notifyUser(user, 'Welcome');
+    notificationService.notifyUser(user, "Welcome");
   }
 }
 
@@ -59,7 +59,7 @@ class UserService {
   public registerUser(user: User) {
     // registration logic
 
-    this._notificationService.notifyUser(user, 'Welcome');
+    this._notificationService.notifyUser(user, "Welcome");
   }
 }
 

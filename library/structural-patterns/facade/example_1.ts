@@ -16,7 +16,7 @@ class UserRepository {
   private constructor() {}
 
   public find(user: User) {
-    return this._users.find(dbUser => dbUser.email === user.email);
+    return this._users.find((dbUser) => dbUser.email === user.email);
   }
 
   public create(user: User) {
@@ -40,7 +40,7 @@ class UserValidator {
 
 class PasswordEncryptor {
   public encrypt(password: string) {
-    return 'ENCRYPTED' + password;
+    return "ENCRYPTED" + password;
   }
 }
 
@@ -50,7 +50,7 @@ export class UserServiceFacade {
     const validator = new UserValidator();
 
     if (!validator.isValid(user)) {
-      throw new Error('Invalid User');
+      throw new Error("Invalid User");
     }
 
     const encryptor = new PasswordEncryptor();

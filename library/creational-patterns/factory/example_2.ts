@@ -8,13 +8,13 @@ export interface IShapeFactory {
 
 class Rectangle implements Shape {
   public draw(): string {
-    return 'Rectangle';
+    return "Rectangle";
   }
 }
 
 class Square implements Shape {
   public draw(): string {
-    return 'Square';
+    return "Square";
   }
 }
 
@@ -23,14 +23,14 @@ export class ShapeFactory implements IShapeFactory {
     let shape: Shape;
 
     switch (type) {
-      case 'Rectangle':
+      case "Rectangle":
         shape = new Rectangle();
         break;
-      case 'Square':
+      case "Square":
         shape = new Square();
         break;
       default:
-        throw 'Not allowed type';
+        throw "Not allowed type";
     }
 
     return shape;

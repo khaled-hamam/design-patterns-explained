@@ -8,7 +8,7 @@ export interface AsteroidFactory {
 }
 
 class BigAsteroid implements Asteroid {
-  public name: string = 'Big Asteroid';
+  public name: string = "Big Asteroid";
 
   public hit(): string {
     return `You got killed from ${this.name}`;
@@ -16,7 +16,7 @@ class BigAsteroid implements Asteroid {
 }
 
 class SmallAsteroid implements Asteroid {
-  public name: string = 'Small Asteroid';
+  public name: string = "Small Asteroid";
 
   public hit(): string {
     return `You got killed from ${this.name}`;

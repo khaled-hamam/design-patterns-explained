@@ -35,7 +35,7 @@ class NormalBuilding implements Building {
   }
 
   public collapese() {
-    return 'The Building is now Destroyed!';
+    return "The Building is now Destroyed!";
   }
 }
 
@@ -51,7 +51,7 @@ class CollapsedBuilding implements Building {
   }
 
   public collapese() {
-    return 'The Building is already Destroyed!';
+    return "The Building is already Destroyed!";
   }
 }
 
@@ -71,7 +71,7 @@ export class NormalGameMapBuilder implements GameMapBuilder {
   }
 
   public reset(): void {
-    this._gameMap = new GameMap(0, 0, false, new Hero(''), [], []);
+    this._gameMap = new GameMap(0, 0, false, new Hero(""), [], []);
   }
 
   public getGameMap(): GameMap {
@@ -85,14 +85,14 @@ export class NormalGameMapBuilder implements GameMapBuilder {
   }
 
   buildHero(): void {
-    this._gameMap.hero = new Hero('My Hero');
+    this._gameMap.hero = new Hero("My Hero");
   }
 
   buildEnemies(): void {
     this._gameMap.enemies = [
-      new Enemy('Enemy 1', 10),
-      new Enemy('Enemy 2', 20),
-      new Enemy('Enemy 3', 30)
+      new Enemy("Enemy 1", 10),
+      new Enemy("Enemy 2", 20),
+      new Enemy("Enemy 3", 30),
     ];
   }
 
@@ -101,7 +101,7 @@ export class NormalGameMapBuilder implements GameMapBuilder {
       new NormalBuilding(0, 0),
       new NormalBuilding(0, 0),
       new NormalBuilding(0, 0),
-      new NormalBuilding(0, 0)
+      new NormalBuilding(0, 0),
     ];
   }
 }
@@ -114,7 +114,7 @@ export class CollapsedGameMapBuilder implements GameMapBuilder {
   }
 
   public reset(): void {
-    this._gameMap = new GameMap(0, 0, true, new Hero(''), [], []);
+    this._gameMap = new GameMap(0, 0, true, new Hero(""), [], []);
   }
 
   public getGameMap(): GameMap {
@@ -128,14 +128,14 @@ export class CollapsedGameMapBuilder implements GameMapBuilder {
   }
 
   buildHero(): void {
-    this._gameMap.hero = new Hero('My Hero');
+    this._gameMap.hero = new Hero("My Hero");
   }
 
   buildEnemies(): void {
     this._gameMap.enemies = [
-      new Enemy('Enemy 1', 10),
-      new Enemy('Enemy 2', 20),
-      new Enemy('Enemy 3', 30)
+      new Enemy("Enemy 1", 10),
+      new Enemy("Enemy 2", 20),
+      new Enemy("Enemy 3", 30),
     ];
   }
 
@@ -144,7 +144,7 @@ export class CollapsedGameMapBuilder implements GameMapBuilder {
       new CollapsedBuilding(0, 0),
       new CollapsedBuilding(0, 0),
       new CollapsedBuilding(0, 0),
-      new CollapsedBuilding(0, 0)
+      new CollapsedBuilding(0, 0),
     ];
   }
 }
@@ -160,7 +160,11 @@ export class GameMapDirector {
     this._builder = builder;
   }
 
-  public constructGameMap(area: number, difficulty: number, hasEnemies: boolean): GameMap {
+  public constructGameMap(
+    area: number,
+    difficulty: number,
+    hasEnemies: boolean
+  ): GameMap {
     this._builder.setOptions(area, difficulty);
     this._builder.buildHero();
     if (hasEnemies) {

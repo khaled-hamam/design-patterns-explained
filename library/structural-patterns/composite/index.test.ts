@@ -1,7 +1,7 @@
-import { Button, Panel, TextBox, InputForm, Window } from './example_1';
+import { Button, Panel, TextBox, InputForm, Window } from "./example_1";
 
-describe('Composite Pattern', () => {
-  describe('Example 1 Tests', () => {
+describe("Composite Pattern", () => {
+  describe("Example 1 Tests", () => {
     const button = new Button();
     const button2 = new Button();
     const button3 = new Button();
@@ -25,25 +25,25 @@ describe('Composite Pattern', () => {
     window.addElement(textBox3);
     window.addElement(bigPanel);
 
-    it('should render the correct tree', () => {
+    it("should render the correct tree", () => {
       const expectedTree =
-        'Window(TextBox, Panel(TextBox, InputForm, Panel(Button, Button, Button, TextBox)))';
+        "Window(TextBox, Panel(TextBox, InputForm, Panel(Button, Button, Button, TextBox)))";
 
       expect(window.draw()).toBe(expectedTree);
     });
 
-    it('should remove item correclty', () => {
+    it("should remove item correclty", () => {
       window.removeElement(bigPanel);
-      const expectedTree = 'Window(TextBox)';
+      const expectedTree = "Window(TextBox)";
 
       expect(window.draw()).toBe(expectedTree);
       window.addElement(bigPanel);
     });
 
-    it('should add item correclty', () => {
+    it("should add item correclty", () => {
       window.addElement(new InputForm());
       window.removeElement(bigPanel);
-      const expectedTree = 'Window(TextBox, InputForm)';
+      const expectedTree = "Window(TextBox, InputForm)";
 
       expect(window.draw()).toBe(expectedTree);
     });

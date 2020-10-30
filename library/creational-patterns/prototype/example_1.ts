@@ -50,13 +50,13 @@ export class ButtonRegistry {
   }
 
   private static loadRegistry(): void {
-    const redRound = new Button('Red', 40, true);
-    const blueSharp = new Button('Blue', 40, false);
-    const greenSmall = new Button('Green', 20, true);
+    const redRound = new Button("Red", 40, true);
+    const blueSharp = new Button("Blue", 40, false);
+    const greenSmall = new Button("Green", 20, true);
     this._registry = new Map<string, Button>([
-      ['Red Round', redRound],
-      ['Blue Sharp', blueSharp],
-      ['Green Small', greenSmall]
+      ["Red Round", redRound],
+      ["Blue Sharp", blueSharp],
+      ["Green Small", greenSmall],
     ]);
 
     this._isLoaded = true;

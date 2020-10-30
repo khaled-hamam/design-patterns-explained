@@ -14,7 +14,7 @@ abstract class CompositeGUIElement implements GUIElement {
   }
 
   removeElement(element: GUIElement): void {
-    this._children = this._children.filter(e => e !== element);
+    this._children = this._children.filter((e) => e !== element);
   }
 
   getChild(index: number): GUIElement {
@@ -22,38 +22,38 @@ abstract class CompositeGUIElement implements GUIElement {
   }
 
   draw(): string {
-    let children = this._children.map(child => child.draw());
+    let children = this._children.map((child) => child.draw());
 
-    return children.join(', ');
+    return children.join(", ");
   }
 }
 
 export class Window extends CompositeGUIElement {
   draw(): string {
-    return 'Window(' + super.draw() + ')';
+    return "Window(" + super.draw() + ")";
   }
 }
 
 export class Panel extends CompositeGUIElement {
   draw(): string {
-    return 'Panel(' + super.draw() + ')';
+    return "Panel(" + super.draw() + ")";
   }
 }
 
 export class Button implements GUIElement {
   draw(): string {
-    return 'Button';
+    return "Button";
   }
 }
 
 export class TextBox implements GUIElement {
   draw(): string {
-    return 'TextBox';
+    return "TextBox";
   }
 }
 
 export class InputForm implements GUIElement {
   draw(): string {
-    return 'InputForm';
+    return "InputForm";
   }
 }

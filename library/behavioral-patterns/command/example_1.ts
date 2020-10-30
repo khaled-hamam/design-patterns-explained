@@ -3,8 +3,8 @@ export class Editor {
   private _clipboard: string;
 
   public constructor() {
-    this.text = '';
-    this._clipboard = '';
+    this.text = "";
+    this._clipboard = "";
   }
 
   public copy(text: string) {

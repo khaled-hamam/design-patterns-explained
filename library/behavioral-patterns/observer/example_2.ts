@@ -19,7 +19,7 @@ class EventManager {
 
   public unsubscribe(eventType: string, listener: Observer) {
     let listeners = this._listeners.get(eventType);
-    listeners = listeners.filter(l => l !== listener);
+    listeners = listeners.filter((l) => l !== listener);
     this._listeners.set(eventType, listeners);
   }
 
@@ -35,14 +35,14 @@ export class WeatherService {
   public events: EventManager;
 
   public constructor() {
-    this.events = new EventManager('hot', 'cold');
+    this.events = new EventManager("hot", "cold");
   }
 
   public setWeather(value: number) {
     if (value > 30) {
-      this.events.notify('hot', value);
+      this.events.notify("hot", value);
     } else if (value < 5) {
-      this.events.notify('cold', value);
+      this.events.notify("cold", value);
     }
   }
 

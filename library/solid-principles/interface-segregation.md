@@ -24,15 +24,15 @@ class EmployeeService implements ICRUDService<Employee> {
   }
 
   public create(model: T) {
-    throw new Error('Not Implemented');
+    throw new Error("Not Implemented");
   }
 
   public update(model: T) {
-    throw new Error('Not Implemented');
+    throw new Error("Not Implemented");
   }
 
   public delete(model: T) {
-    throw new Error('Not Implemented');
+    throw new Error("Not Implemented");
   }
 }
 ```

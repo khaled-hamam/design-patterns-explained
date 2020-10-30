@@ -9,7 +9,7 @@ export class Image implements IGraphic {
   }
 
   public draw(): string {
-    return 'Drawing Image...';
+    return "Drawing Image...";
   }
 
   public load(fileName: string) {
