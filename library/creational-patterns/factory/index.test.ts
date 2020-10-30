@@ -4,7 +4,7 @@ import {
   AsteroidFactory,
   SequentialAsteroidFactory,
   BigAsteroidFactory,
-  SmallAsteroidFactory
+  SmallAsteroidFactory,
 } from './example_1';
 
 describe('Factory Pattern', () => {

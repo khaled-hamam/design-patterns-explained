@@ -23,27 +23,27 @@ There're many more categories, but the commonly used and mentioned are Creationa
 
 ## Patterns Catalogue
 
-* **[Creational Patterns](./creational-patterns/README.md)**
-  * [Prototype Pattern](./creational-patterns/prototype/README.md)
-  * [Factory Pattern](./creational-patterns/factory/README.md)
-  * [Singleton Pattern](./creational-patterns/singleton/README.md)
-  * [Builder Pattern](./creational-patterns/builder/README.md)
-  * [Abstract Factory Pattern](./creational-patterns/abstract-factory/README.md)
-* **[Behavioral Patterns](./behavioral-patterns/README.md)**
-  * [Chain of Responsibility Pattern](./behavioral-patterns/chain-of-responsibility/README.md)
-  * [Memento Pattern](./behavioral-patterns/memento/README.md)
-  * [Interpreter Pattern](./behavioral-patterns/interpreter/README.md)
-  * [Template Method Pattern](./behavioral-patterns/template-method/README.md)
-  * [Prototype Pattern](./behavioral-patterns/iterator/README.md)
-  * [Command Pattern](./behavioral-patterns/command/README.md)
-  * [Visitor Pattern](./behavioral-patterns/visitor/README.md)
-  * [Observer Pattern](./behavioral-patterns/observer/README.md)
-  * [State Pattern](./behavioral-patterns/state/README.md)
-* **[Structural Patterns](./structural-patterns/README.md)**
-  * [Decorator Pattern](./structural-patterns/decorator/README.md)
-  * [Bridge Pattern](./structural-patterns/bridge/README.md)
-  * [Composite Pattern](./structural-patterns/composite/README.md)
-  * [Flyweight Pattern](./structural-patterns/flyweight/README.md)
-  * [Proxy Pattern](./structural-patterns/proxy/README.md)
-  * [Adapter Pattern](./structural-patterns/adapter/README.md)
-  * [Facade Pattern](./structural-patterns/facade/README.md)
+- **[Creational Patterns](./creational-patterns/README.md)**
+  - [Prototype Pattern](./creational-patterns/prototype/README.md)
+  - [Factory Pattern](./creational-patterns/factory/README.md)
+  - [Singleton Pattern](./creational-patterns/singleton/README.md)
+  - [Builder Pattern](./creational-patterns/builder/README.md)
+  - [Abstract Factory Pattern](./creational-patterns/abstract-factory/README.md)
+- **[Behavioral Patterns](./behavioral-patterns/README.md)**
+  - [Chain of Responsibility Pattern](./behavioral-patterns/chain-of-responsibility/README.md)
+  - [Memento Pattern](./behavioral-patterns/memento/README.md)
+  - [Interpreter Pattern](./behavioral-patterns/interpreter/README.md)
+  - [Template Method Pattern](./behavioral-patterns/template-method/README.md)
+  - [Prototype Pattern](./behavioral-patterns/iterator/README.md)
+  - [Command Pattern](./behavioral-patterns/command/README.md)
+  - [Visitor Pattern](./behavioral-patterns/visitor/README.md)
+  - [Observer Pattern](./behavioral-patterns/observer/README.md)
+  - [State Pattern](./behavioral-patterns/state/README.md)
+- **[Structural Patterns](./structural-patterns/README.md)**
+  - [Decorator Pattern](./structural-patterns/decorator/README.md)
+  - [Bridge Pattern](./structural-patterns/bridge/README.md)
+  - [Composite Pattern](./structural-patterns/composite/README.md)
+  - [Flyweight Pattern](./structural-patterns/flyweight/README.md)
+  - [Proxy Pattern](./structural-patterns/proxy/README.md)
+  - [Adapter Pattern](./structural-patterns/adapter/README.md)
+  - [Facade Pattern](./structural-patterns/facade/README.md)

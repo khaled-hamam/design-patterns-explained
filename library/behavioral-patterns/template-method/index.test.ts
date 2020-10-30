@@ -1,5 +1,10 @@
 import { SocialNetwork, Facebook } from './example_1';
-import { MyClass, SortOnAService, SortOnBService, SortOnCService } from './example_2';
+import {
+  MyClass,
+  SortOnAService,
+  SortOnBService,
+  SortOnCService,
+} from './example_2';
 
 describe('Template Method Pattern', () => {
   describe('Example 1 Tests', () => {

@@ -7,13 +7,15 @@ describe('Chain of Responsibility Pattern', () => {
     beforeAll(() => {
       server = new Server();
 
-      const checkUserNotExistsMiddleWare = new Handler((params: any[], next: Function) => {
-        const [email, password] = params;
-        if (server.getUser(email) === undefined) {
-          return next(params);
+      const checkUserNotExistsMiddleWare = new Handler(
+        (params: any[], next: Function) => {
+          const [email, password] = params;
+          if (server.getUser(email) === undefined) {
+            return next(params);
+          }
+          return 'EMAIL ALREADY EXISTS';
         }
-        return 'EMAIL ALREADY EXISTS';
-      });
+      );
 
       const registerHandler = new Handler((params: any[], next: Function) => {
         const [email, password] = params;
@@ -21,13 +23,15 @@ describe('Chain of Responsibility Pattern', () => {
         return 'REGISTERED';
       });
 
-      const checkUserExistsMiddleWare = new Handler((params: any[], next: Function) => {
-        const [email, password] = params;
-        if (server.getUser(email)) {
-          return next(params);
+      const checkUserExistsMiddleWare = new Handler(
+        (params: any[], next: Function) => {
+          const [email, password] = params;
+          if (server.getUser(email)) {
+            return next(params);
+          }
+          return 'INVALID EMAIL';
         }
-        return 'INVALID EMAIL';
-      });
+      );
 
       const checkUserPassword = new Handler((params: any[], next: Function) => {
         const [email, password] = params;

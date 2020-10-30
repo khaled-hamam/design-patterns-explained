@@ -14,7 +14,7 @@ abstract class CompositeGUIElement implements GUIElement {
   }
 
   removeElement(element: GUIElement): void {
-    this._children = this._children.filter(e => e !== element);
+    this._children = this._children.filter((e) => e !== element);
   }
 
   getChild(index: number): GUIElement {
@@ -22,7 +22,7 @@ abstract class CompositeGUIElement implements GUIElement {
   }
 
   draw(): string {
-    let children = this._children.map(child => child.draw());
+    let children = this._children.map((child) => child.draw());
 
     return children.join(', ');
   }

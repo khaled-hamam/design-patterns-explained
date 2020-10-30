@@ -20,7 +20,7 @@ export class Currency implements IObservable {
   }
 
   public detach(observer: IObserver) {
-    this._observers = this._observers.filter(o => o !== observer);
+    this._observers = this._observers.filter((o) => o !== observer);
   }
 
   public get value(): number {

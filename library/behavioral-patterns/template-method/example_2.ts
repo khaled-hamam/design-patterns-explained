@@ -5,7 +5,7 @@ export class MyClass {
 export abstract class SortService {
   public sort(array: MyClass[]): MyClass[] {
     const arrayCopy: MyClass[] = [];
-    array.forEach(entry => arrayCopy.push(entry));
+    array.forEach((entry) => arrayCopy.push(entry));
 
     for (let i = 0; i < arrayCopy.length; ++i) {
       for (let j = 1; j < arrayCopy.length; ++j) {

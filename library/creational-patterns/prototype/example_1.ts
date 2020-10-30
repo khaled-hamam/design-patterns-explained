@@ -56,7 +56,7 @@ export class ButtonRegistry {
     this._registry = new Map<string, Button>([
       ['Red Round', redRound],
       ['Blue Sharp', blueSharp],
-      ['Green Small', greenSmall]
+      ['Green Small', greenSmall],
     ]);
 
     this._isLoaded = true;

@@ -9,7 +9,10 @@ class ListIterator<T> implements Iterator<T | null> {
   next(value?: any): IteratorResult<T | null> {
     return {
       done: this._currentIndex >= this._list.length,
-      value: this._currentIndex >= this._list.length ? null : this._list[this._currentIndex++]
+      value:
+        this._currentIndex >= this._list.length
+          ? null
+          : this._list[this._currentIndex++],
     };
   }
 }

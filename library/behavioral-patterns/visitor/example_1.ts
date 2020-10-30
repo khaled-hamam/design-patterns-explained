@@ -45,7 +45,7 @@ export class Investor implements IVisitable {
   }
 
   public accept(visitor: InvestorVisitor) {
-    this.assets.forEach(asset => {
+    this.assets.forEach((asset) => {
       asset.accept(visitor);
     });
   }

@@ -1,7 +1,8 @@
 <!-- markdownlint-disable MD041 -->
+
 ![Design Patterns Explained.](https://user-images.githubusercontent.com/24835522/96385851-d61e2b00-1196-11eb-8c7f-b608bf1ff05b.png)
 
-***
+---
 
 This is intended to be a collection of most of the well-known design patterns, with explanation, examples, illustrations, and everything you need to learn and understand design patterns.
 
@@ -23,10 +24,10 @@ You can choose any of the patterns from the **[patterns catalogue](./library/REA
 
 ## Keep in Mind
 
-* Design patterns can be easily **misused**, so make sure to fully understand the pattern, its use cases, and what is the problem it is trying to solve.
-* Design patterns **don't have one way for implementation**, you can change the implementation, the components, and even mix between the patterns as you wish.
-* Design patterns aren't the ultimate solution to a problem, they may even introduce a few problems of their own due to their limitations, so implement only what you need, and feel free to extend them with what you see fits your context.
-* I'll try as possible to avoid trivial examples, but I may not be able to make real-life examples for all the patterns, so feel free to contribute with a better example, or try searching one of the [learning sources](#learning-sources) for better examples.
+- Design patterns can be easily **misused**, so make sure to fully understand the pattern, its use cases, and what is the problem it is trying to solve.
+- Design patterns **don't have one way for implementation**, you can change the implementation, the components, and even mix between the patterns as you wish.
+- Design patterns aren't the ultimate solution to a problem, they may even introduce a few problems of their own due to their limitations, so implement only what you need, and feel free to extend them with what you see fits your context.
+- I'll try as possible to avoid trivial examples, but I may not be able to make real-life examples for all the patterns, so feel free to contribute with a better example, or try searching one of the [learning sources](#learning-sources) for better examples.
 
 ## How to Use the Tests
 
