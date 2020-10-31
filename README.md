@@ -29,6 +29,16 @@ You can choose any of the patterns from the **[patterns catalogue](./library/REA
 - Design patterns aren't the ultimate solution to a problem, they may even introduce a few problems of their own due to their limitations, so implement only what you need, and feel free to extend them with what you see fits your context.
 - I'll try as possible to avoid trivial examples, but I may not be able to make real-life examples for all the patterns, so feel free to contribute with a better example, or try searching one of the [learning sources](#learning-sources) for better examples.
 
+## Why TypeScript
+
+As you can see, all the examples and tests are written in TypeScript. There's no particular reason for me to use TypeScript while explaining Design Patterns other than I'm familiar with it.
+
+Some of the patterns heavily depend on certian language features which may not be found in TypeScript, or can easily be mis-implemented without a certain feature, it may behave the same, but sometimes it will lack the complete features or benifits the same pattern will provide in other languages.
+
+I will try as possible to be clear on where TypeScript falls short, but maybe in the future I'll implement the examples in other languages.
+
+Finally, feel free to contribute to the code with other examples or even examples written in other languages.
+
 ## How to Use the Tests
 
 You'll need this only if you want to play with the code and try new things, or if you want to contribute to the project.
@@ -57,6 +67,9 @@ $ npm run lint
 
 # Auto Fix basic errors in Markdown
 $ npm run lint -- --fix
+
+# Format files with prettier
+$ npm run format
 ```
 
 ## Learning Sources

@@ -7,10 +7,11 @@
     "build:watch": "tsc -w",
     "test": "jest --verbose",
     "test:watch": "jest --verbose --watchAll",
-    "lint": "markdownlint '**/*.md' --ignore node_modules"
+    "lint": "markdownlint '**/*.md' --ignore node_modules",
+    "format": "prettier -w ."
   },
   "author": "Khaled Mohamed <Khal3d.Mohamed@gmail.com>",
-  "license": "ISC",
+  "license": "CC-BY-SA-4.0",
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "jest": "^26.6.0",
