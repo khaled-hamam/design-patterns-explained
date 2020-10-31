@@ -67,6 +67,9 @@ $ npm run lint
 
 # Auto Fix basic errors in Markdown
 $ npm run lint -- --fix
+
+# Format files with prettier
+$ npm run format
 ```
 
 ## Learning Sources
