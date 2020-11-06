@@ -32,3 +32,4 @@
     - [Proxy Pattern](./library/structural-patterns/proxy/README.md)
     - [Adapter Pattern](./library/structural-patterns/adapter/README.md)
     - [Facade Pattern](./library/structural-patterns/facade/README.md)
+- [Roadmap](./ROADMAP.md)
