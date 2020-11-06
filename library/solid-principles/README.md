@@ -12,4 +12,4 @@ To fully understand the design patterns, why are they made? and what problems do
 4. [Interface Segregation Principle](./interface-segregation.md)
 5. [Dependency Inversion Principle](./dependency-inversion.md)
 
-After applying the SOLID principles to your code base, the code should be decoupled, easy to reuse, easy to extend (as we are always looking for low coupling, and high cohesion), but be aware of over-engineering without a clear vision of why you're choosing to follow these principles, by the end of the day they're only principles, not rules, then can be ignored in some cases for clear reasons and better solutions.
+After applying the SOLID principles to your code base, the code should be decoupled, easy to reuse, easy to extend (as we are always looking for low coupling, and high cohesion), but be aware of over-engineering without a clear vision of why you're choosing to follow these principles, by the end of the day they're only principles, not rules, they can be ignored in some cases for clear reasons and better solutions.
