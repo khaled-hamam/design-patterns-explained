@@ -4,6 +4,10 @@
 
 ---
 
+[![GitHub Repo stars](https://img.shields.io/github/stars/khaled-hamam/design-patterns-explained)](https://github.com/khaled-hamam/design-patterns-explained)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/khaled-hamam/design-patterns-explained/checks?label=checks)](https://github.com/khaled-hamam/design-patterns-explained/actions)
+[![GitHub](https://img.shields.io/github/license/khaled-hamam/design-patterns-explained)](https://github.com/khaled-hamam/design-patterns-explained/blob/master/LICENSE)
+
 This is intended to be a collection of most of the well-known design patterns, with explanation, examples, illustrations, and everything you need to learn and understand design patterns.
 
 ## Introduction
@@ -28,12 +32,13 @@ You can choose any of the patterns from the **[patterns catalogue](./library/REA
 - Design patterns **don't have one way for implementation**, you can change the implementation, the components, and even mix between the patterns as you wish.
 - Design patterns aren't the ultimate solution to a problem, they may even introduce a few problems of their own due to their limitations, so implement only what you need, and feel free to extend them with what you see fits your context.
 - I'll try as possible to avoid trivial examples, but I may not be able to make real-life examples for all the patterns, so feel free to contribute with a better example, or try searching one of the [learning sources](#learning-sources) for better examples.
+- Please be careful as this code is **not production quality** by any means, avoid copying and pasting or using the code in the examples as is, as it is not intended to be used in production code.
 
 ## Why TypeScript
 
 As you can see, all the examples and tests are written in TypeScript. There's no particular reason for me to use TypeScript while explaining Design Patterns other than I'm familiar with it.
 
-Some of the patterns heavily depend on certian language features which may not be found in TypeScript, or can easily be mis-implemented without a certain feature, it may behave the same, but sometimes it will lack the complete features or benifits the same pattern will provide in other languages.
+Some of the patterns heavily depend on certain language features which may not be found in TypeScript, or can easily be mis-implemented without a certain feature, it may behave the same, but sometimes it will lack the complete features or benefits the same pattern will provide in other languages.
 
 I will try as possible to be clear on where TypeScript falls short, but maybe in the future I'll implement the examples in other languages.
 
@@ -44,6 +49,9 @@ Finally, feel free to contribute to the code with other examples or even example
 You'll need this only if you want to play with the code and try new things, or if you want to contribute to the project.
 
 ```bash
+# clone the repository
+$ git clone https://github.com/khaled-hamam/design-patterns-explained.git
+
 # Installing the needed dependencies
 $ npm install
 
