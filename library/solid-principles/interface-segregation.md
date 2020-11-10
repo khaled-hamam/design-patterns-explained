@@ -1,5 +1,7 @@
 # Interface Segregation Principle
 
+![Interface Segregation Principle](https://user-images.githubusercontent.com/24835522/98735552-3c6c2700-23ac-11eb-90ae-dd2eb0b5376b.png)
+
 **Definition:**
 Clients should not be forced to depend on methods they do not use.
 

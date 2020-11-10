@@ -1,5 +1,7 @@
 # Open / Closed Principle
 
+![Open / Closed Principle](https://user-images.githubusercontent.com/24835522/98735295-d5e70900-23ab-11eb-9810-99e3967fa499.png)
+
 **Definition:**
 Software modules should be open for extension but closed for modification.
 

@@ -1,5 +1,7 @@
 # Liskov Substitution Principle
 
+![Liskov Substitution Principle](https://user-images.githubusercontent.com/24835522/98735423-02028a00-23ac-11eb-9743-4ab6797d6560.png)
+
 **Definition:**
 Subtypes must be completely substitutable for their base types.
 

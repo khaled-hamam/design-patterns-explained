@@ -1,12 +1,16 @@
 # Dependency Inversion Principle
 
+![Dependency Inversion Principle](https://user-images.githubusercontent.com/24835522/98735658-69b8d500-23ac-11eb-9295-11d67b4c77c1.png)
+
 **Definition:**
 High-level modules should not depend on Low-level Modules, but both should depend on abstractions.
 
 **The normal flow of module dependencies:** High-level Modules -> Medium Level Modules -> Low-level Modules.
+
 ![Figure 1](figures/figure_1.png)
 
 **What we want to achieve:** High-level Modules -> Medium Level Abstractions <- Medium Level Modules -> Low-level Abstractions <- Low-level Modules.
+
 ![Figure 2](figures/figure_2.png)
 
 - DI Principle helps in achieving a very decoupled code that helps in extension and testing.

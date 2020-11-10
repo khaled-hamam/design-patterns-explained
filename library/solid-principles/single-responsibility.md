@@ -1,5 +1,7 @@
 # Single Responsibility Principle
 
+![Single Responsibility Principle](https://user-images.githubusercontent.com/24835522/98735006-6cff9100-23ab-11eb-9d50-12d8ddc91266.png)
+
 **Robert C. Martin's Definition:**
 There should never be more than one reason for a class to change.
 

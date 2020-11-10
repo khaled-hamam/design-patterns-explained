@@ -1,5 +1,7 @@
 # SOLID Principles
 
+![SOLID Principles](https://user-images.githubusercontent.com/24835522/98734846-3b86c580-23ab-11eb-9c80-7587043d5b8f.png)
+
 SOLID is an acronym for five design principles for object oriented code, although SOLID can be used and adapted as principles for any form of software development.
 
 The term SOLID was introduced by **Robert C. Martin**, and it's considered to be the base principles which its violation can cause many problems that can be solved using one of the design patterns widely known (of course not every form of violation can have a solution in a form of a design pattern).

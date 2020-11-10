@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
 
-![Design Patterns Explained.](https://user-images.githubusercontent.com/24835522/96385851-d61e2b00-1196-11eb-8c7f-b608bf1ff05b.png)
+![Design Patterns Explained.](https://user-images.githubusercontent.com/24835522/98734738-11350800-23ab-11eb-9838-74822d78bc49.png)
 
 ---
 
