@@ -15,7 +15,7 @@ Subtypes must be completely substitutable for their base types.
 
 ## Example
 
-![Figure 7](figures/figure_7.png)
+![Example UML](https://user-images.githubusercontent.com/24835522/98862198-2d9a7880-246f-11eb-8757-16b54ed50be7.png)
 
 ```typescript
 interface Shape {
@@ -65,7 +65,7 @@ Square has a Width equal to its Height, so when setting one of them we're also s
 
 ## Solution
 
-![Figure 8](figures/figure_8.png)
+![Solution UML](https://user-images.githubusercontent.com/24835522/98862291-4f93fb00-246f-11eb-97d4-6f28d0f059b0.png)
 
 ```typescript
 interface Shape {

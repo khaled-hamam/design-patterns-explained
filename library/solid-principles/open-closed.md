@@ -11,7 +11,7 @@ Software modules should be open for extension but closed for modification.
 
 ## Example
 
-![Figure 9](figures/figure_9.png)
+![Example UML](https://user-images.githubusercontent.com/24835522/98861941-c41a6a00-246e-11eb-95cf-382ea7264b4b.png)
 
 ```typescript
 class Product {
@@ -53,7 +53,7 @@ Now let's see the problems introduced in this example:
 
 ## Solution
 
-![Figure 10](figures/figure_10.png)
+![Solution UML](https://user-images.githubusercontent.com/24835522/98861970-ced4ff00-246e-11eb-9769-cad923b09b44.png)
 
 ```typescript
 class Product {

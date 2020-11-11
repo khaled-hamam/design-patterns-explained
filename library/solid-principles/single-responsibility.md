@@ -14,7 +14,7 @@ Every module, class, or function should have responsibility for a single part of
 
 ## Example
 
-![Figure 11](figures/figure_11.png)
+![Example UML](https://user-images.githubusercontent.com/24835522/98861750-77369380-246e-11eb-8319-46ac8ce5e39a.png)
 
 ```typescript
 class Employee {
@@ -51,7 +51,7 @@ Now let's see the problems introduced in this example:
 
 ## Solution
 
-![Figure 12](figures/figure_12.png)
+![Solution UML](https://user-images.githubusercontent.com/24835522/98861793-874e7300-246e-11eb-874f-0187ce250d34.png)
 
 ```typescript
 class Employee {

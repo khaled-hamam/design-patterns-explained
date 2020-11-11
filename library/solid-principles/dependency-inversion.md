@@ -7,11 +7,11 @@ High-level modules should not depend on Low-level Modules, but both should depen
 
 **The normal flow of module dependencies:** High-level Modules -> Medium Level Modules -> Low-level Modules.
 
-![Figure 1](figures/figure_1.png)
+![Normal Flow of Dependencies](https://user-images.githubusercontent.com/24835522/98863177-a8b05e80-2470-11eb-8c2a-36b59b52ca24.png)
 
 **What we want to achieve:** High-level Modules -> Medium Level Abstractions <- Medium Level Modules -> Low-level Abstractions <- Low-level Modules.
 
-![Figure 2](figures/figure_2.png)
+![Dependency Inversion Flow](https://user-images.githubusercontent.com/24835522/98863236-c1207900-2470-11eb-978f-214c0ba93ffc.png)
 
 - DI Principle helps in achieving a very decoupled code that helps in extension and testing.
 - To achieve true dependency inversion, every dependency should be explicit (no new keywords inside the module).
@@ -25,7 +25,7 @@ High-level modules should not depend on Low-level Modules, but both should depen
 
 ## Example
 
-![Figure 3](figures/figure_3.png)
+![Example UML](https://user-images.githubusercontent.com/24835522/98863276-ced5fe80-2470-11eb-87f1-dc2d0a4fcb9e.png)
 
 ```typescript
 class UserService {
@@ -50,7 +50,7 @@ One solution is to make the NotificationService an explicit dependency, but don'
 
 ## Solution
 
-![Figure 4](figures/figure_4.png)
+![Solution UML](https://user-images.githubusercontent.com/24835522/98863317-db5a5700-2470-11eb-8f2a-8c40a0356a20.png)
 
 ```typescript
 class UserService {

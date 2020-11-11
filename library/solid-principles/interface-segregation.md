@@ -10,7 +10,7 @@ Clients should not be forced to depend on methods they do not use.
 
 ## Example
 
-![Figure 5](figures/figure_5.png)
+![Example UML](https://user-images.githubusercontent.com/24835522/98861849-9fbe8d80-246e-11eb-9013-d99b3bfec330.png)
 
 ```typescript
 interface ICRUDService<T> {
@@ -46,7 +46,7 @@ Now let's see the problems introduced in this example:
 
 ## Solution
 
-![Figure 6](figures/figure_6.png)
+![Solution UML](https://user-images.githubusercontent.com/24835522/98861892-af3dd680-246e-11eb-8cf9-758b0b1e40c6.png)
 
 ```typescript
 interface IReadService<T> {
