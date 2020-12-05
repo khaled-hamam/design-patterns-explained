@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A TypeScript Design Patterns Library",
   "scripts": {
+    "pattern:new": "./scripts/new-pattern.sh",
     "build": "tsc",
     "build:watch": "tsc -w",
     "test": "jest --verbose",
