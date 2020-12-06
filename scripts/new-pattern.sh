@@ -26,5 +26,7 @@ select family in ${patterns_families[*]}; do
   echo "describe('${pattern_name} Pattern', () => {});" > $directory/example-1/index.test.ts
 
   sed -i "" "s/Pattern Name/${pattern_name} Pattern/" $directory/README.md
+
+  echo "Don't forget to add the pattern in the patterns catalogue."
   break
 done
