@@ -24,6 +24,7 @@
     - [Visitor Pattern](./library/behavioral-patterns/visitor/README.md)
     - [Observer Pattern](./library/behavioral-patterns/observer/README.md)
     - [State Pattern](./library/behavioral-patterns/state/README.md)
+    - [Strategy Pattern](./library/behavioral-patterns/strategy/README.md)
   - [Structural Patterns](./library/structural-patterns/README.md)
     - [Decorator Pattern](./library/structural-patterns/decorator/README.md)
     - [Bridge Pattern](./library/structural-patterns/bridge/README.md)
