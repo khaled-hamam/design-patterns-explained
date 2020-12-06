@@ -1,0 +1,96 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="460px" height="164px" viewBox="-0.5 -0.5 460 164" content="&lt;mxfile host=&quot;06b1d930-eed6-48bc-acf8-7389d279cb55&quot; modified=&quot;2020-12-06T20:37:03.744Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36&quot; etag=&quot;tuDEnVSMsVJnovZYXYN4&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;-4-OCGd4S_brxQCDLveQ&quot; name=&quot;Page-1&quot;&gt;7VhNc5swEP01zLSHZsCYxD7GzkcPzkymPjQ9KiCDGoE8Ym1Dfn1XsOIjJI07+XAPzngy7ONJ1r6nFawdf54W15qtkxsVcemM3Khw/AtnhH8T/G+AsgaCybgGYi2iGvJaYCkeOYGWthERz3tEUEqCWPfBUGUZD6GHMa3Vrk9bKdn/1jWL+QBYhkwO0Z8igqRGJ6OzFv/ORZzYb/ZOp/WdlFmyWwN5wiK160D+pePPtVJQX6XFnEujndWlHnf1wt1mYZpnsNcAWlgOpU2OR5grhUpDomKVMXnZorMWXSi1RpqH4G8OUJJVbAMKoQRSSXdzYBrOjfQIhJLluQgtfCWkpfEssqRMZbxG6L5r+A8cwoTI4UZveUTBMHHSIlcbHVJqPu0VpmNOLLLMJN0ZRmJdc5Vy0CUSNJcMxLa/ARjto7jhtVLjBan9vPLN+j5YedRDl3dGv5PAhr9Iziq4KHpRaaX+Xx2bHsoxWsuWyQ1NugTNgMflwMl8J1LJKjlWKgNrqhEkTISMFqxUG5MPyhk+2GiWKC0ekc96ZUPWjk57jKUZSXNqniPn1krpPYFuWNEjLlgOdjVKSrbOxX21PjMwRalFNlMAKiXSCu20KeRKGj36vr5o5ZZr4MVfbaK7vjeqh9AjwfMp3rUHrDemUzPpHK7B6O3OjgfOOqOZeT6ppZksEVn85evAZMzMmMakiDNEJF+Z0KQs8FFxTjCYOp3laxbiLIuKczFukR+UiYEUjl3JqpYSEUU8M44pYMDum+2zViKDKtVghh8UZG4KO8AFzTH22hg/hq5hrrIcN6qovOHo/Y4b/1+z0N/bQrIMN+hejlneWxw7GziGWYaaA7c1eX4syjcXZfOiZh22dn5GUU6ORTm08GxvCw9QlNNjUX5CUY5tF3SIovTcY1UOPZzu7eEBqtILBnZ8TKNRCLjrXFdNRt1zYNR2GSawTUbTnHxzT1yvaVfqoW4wfaVHqaJbrgWKwrXzLh2Hra5uy0HQ+7Uc1VDsm1jZIdB+bWe+NUDnaRxM+6/IFLf7oJ6x3RXN0vbbKMPXYKyHqnSfbqCO7Z9x5E1P+4n742H5eM+deO4/lw+G7a8vtYjtT1j+5R8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <clipPath id="mx-clip-220-31-132-26-0">
+            <rect x="220" y="31" width="132" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-136-139-132-26-0">
+            <rect x="136" y="139" width="132" height="26"/>
+        </clipPath>
+        <clipPath id="mx-clip-322-139-132-26-0">
+            <rect x="322" y="139" width="132" height="26"/>
+        </clipPath>
+    </defs>
+    <g>
+        <path d="M 286 58.37 Q 286 80 244 80 Q 202 80 202 108" fill="none" stroke="none" pointer-events="stroke"/>
+        <path d="M 286 53.12 L 289.5 60.12 L 286 58.37 L 282.5 60.12 Z" fill="none" stroke="none" pointer-events="all"/>
+        <path d="M 284.23 59.28 M 286 58.37 C 287.38 73.57 270.97 78.97 244.28 78.88 M 284.57 57.02 C 287.93 71.09 272.77 78.36 243.26 81.6 M 244 80 C 214.35 78.19 201.18 89.12 203.78 108.71 M 242.07 81.22 C 217.94 79.91 203.34 87.43 203.6 106.41" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 286.17 52.92 C 286.17 52.92 286.17 52.92 286.17 52.92 M 286.17 52.92 C 286.17 52.92 286.17 52.92 286.17 52.92 M 286.43 58.73 C 286.82 58.36 286.93 58.07 287.86 56.9 M 286.49 58.59 C 286.98 58.06 287.47 57.51 287.91 57.02" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 287.22 54.09 M 285.29 52.45 C 287.21 54.82 287.53 57.1 289.42 60.54 M 285.63 52.85 C 286.93 55.75 288.45 57.94 289.25 59.8 M 289.22 59.83 C 288.63 59.9 288.27 59.43 285.9 58.69 M 289.48 60.31 C 288.42 59.52 287.49 59.25 286 58.43 M 285.97 58.4 C 284.82 59.3 283.38 59.29 282.22 59.98 M 285.99 58.25 C 284.65 59.11 283.77 59.53 282.63 60 M 282.31 60.86 C 283.68 58.8 283.78 57.29 286.01 52.52 M 282.59 60.45 C 284.08 57.65 285.05 55.01 285.93 53.21" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 286 58.37 Q 286 80 337 80 Q 388 80 388 108" fill="none" stroke="none" pointer-events="stroke"/>
+        <path d="M 286 53.12 L 289.5 60.12 L 286 58.37 L 282.5 60.12 Z" fill="none" stroke="none" pointer-events="all"/>
+        <path d="M 284.23 59.1 M 286 58.37 C 287.54 72.22 302.72 80.08 336.6 80.59 M 286.78 56.77 C 287.36 73.23 303.96 80.86 335.14 79.1 M 337 80 C 371.33 79.42 386.48 89.75 388 108.14 M 335.12 81.98 C 370.37 79.08 387.38 91.09 390.17 107.96" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 286.17 52.92 C 286.17 52.92 286.17 52.92 286.17 52.92 M 286.17 52.92 C 286.17 52.92 286.17 52.92 286.17 52.92 M 286.57 58.51 C 286.74 58.19 287.25 58.09 288.06 57.1 M 286.47 58.65 C 287 58.03 287.41 57.77 287.94 57.13" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 286.43 52.1 M 285.96 53.06 C 286.92 55.05 287.53 57.02 289.78 60.19 M 286.02 53.27 C 287.26 55.04 288.38 57.42 289.23 60.46 M 289.81 60.38 C 287.9 59.26 287.09 58.54 285.77 58.36 M 289.32 60.3 C 288.74 59.66 287.65 59.36 286.12 58.5 M 286.24 58.26 C 285.4 58.99 284.74 58.83 282.54 60.02 M 285.98 58.42 C 285.21 58.87 284.51 59.04 282.46 60.29 M 282.86 60.34 C 283.76 57.96 285.06 57 285.97 53.24 M 282.59 60.26 C 283.35 58.31 284.55 56.18 286.06 53.14" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 214.01 27.89 L 215.24 0.3 L 357.04 -0.22 L 357.38 26.07" fill="#ffffff" stroke="none" pointer-events="all"/>
+        <path d="M 216.13 26.93 M 216.8 25.62 C 217.26 18.65 215.31 15.32 214.02 -1.18 M 215.7 26 C 215.44 16.35 215.61 7.01 215.73 0.01 M 217.09 -1.18 C 247.91 0.55 282.92 0.41 354.48 0.73 M 216.12 0.16 C 256.62 -1.33 295.84 -0.61 356.8 0.29 M 356.77 -0.72 C 354.23 8.57 357.07 18.5 356.75 25.99 M 355.87 -0.54 C 355.51 9.61 356.38 17.5 356.38 25.26" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 214.01 27.89 M 215.78 27.38 C 216.11 32.93 216.96 37.78 217.02 52.56 M 215.04 25.72 C 216.03 33.85 215.36 44.41 215.35 51.14 M 216.11 50.88 C 254.68 52.47 291.75 51.73 354.17 53.63 M 216.85 52.47 C 266.41 52 315.64 52.64 355.85 52.41 M 354.5 50.17 C 355.9 45.49 356.55 36.69 354.5 25.12 M 355.79 52.63 C 356.36 43.57 356.09 34.83 356.18 26.51" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214.01 27.89 M 215.78 27.38 C 252.72 25.4 290.22 23.44 357.02 26.56 M 215.04 25.72 C 263.69 24.03 310.63 25.75 355.35 25.14" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="285.5" y="17.5">
+                Strategy
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-220-31-132-26-0)" font-size="12px">
+            <text x="221.5" y="43.5">
+                + doSomething()
+            </text>
+        </g>
+        <path d="M 130.01 133.25 L 132.86 107.72 L 272.89 106.5 L 270.03 135.83" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 133.21 135.75 M 132.26 132.43 C 131.68 128.12 134.12 119.93 131.97 106.18 M 132.62 133.08 C 131.76 127.12 131.89 119.73 132.45 108.79 M 132.36 109.2 C 169.17 107.53 203.36 107.58 270.7 107.98 M 132.08 108.27 C 163.92 108.07 196.9 109.37 271.33 107.97 M 273.69 107.73 C 273.35 113.77 271.45 120.67 272.68 133.5 M 271.62 108.01 C 272.81 116.57 271.19 127.43 272.74 134.45" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 130.01 133.25 M 130.5 132.03 C 133.79 144.12 133.72 151.57 130.73 158.73 M 132.79 134.98 C 132.23 142.12 130.88 150.01 132.05 159.29 M 132.51 159.8 C 182.61 161.21 234.86 159.55 271.64 160.14 M 131.81 159.03 C 176.39 158.98 221.09 158.93 272.48 159.46 M 270.62 161.4 C 273.14 150.66 271.86 143.3 272.57 135.22 M 271.44 159.69 C 271.48 150.35 271.78 140.61 271.66 133.41" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 130.01 133.25 M 130.5 132.03 C 181.83 134.58 229.75 133.11 270.73 132.73 M 132.79 134.98 C 176.22 134.33 218.66 134.08 272.05 133.29" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="201.5" y="125.5">
+                ConcreteStrategyA
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-136-139-132-26-0)" font-size="12px">
+            <text x="137.5" y="151.5">
+                + doSomething()
+            </text>
+        </g>
+        <path d="M 316.01 133.93 L 319.67 109.44 L 456.82 109.86 L 458.36 134.71" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 319.75 134.16 M 319.98 133.83 C 318.62 124.86 319.27 118.24 318.95 107.85 M 317.07 134.61 C 317.92 127.51 317.03 122.09 318.81 108.18 M 316 106.39 C 371.81 107.62 421.57 107.76 456.81 109.61 M 318.05 107.32 C 359.57 108.37 402.44 108.95 458.59 107.8 M 456.14 107.96 C 458.65 112.37 458.38 117.76 458.65 133.26 M 457.49 107.29 C 458.46 118.05 457.59 127.39 458.92 133.04" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 316.01 133.93 M 319.86 134.36 C 318.9 145.71 318.35 154.46 317.58 161.82 M 317.67 134.61 C 318.58 144.85 317.91 154 318.4 160.37 M 316.7 158.26 C 346.58 161.58 376.41 161.46 456.38 161.4 M 318.3 159.31 C 346.37 158.47 374.81 159.07 458.79 159.98 M 458.68 161.01 C 460.02 153.24 457.78 142.6 457.61 134.27 M 457.27 160.22 C 457.05 154.94 457.63 149.91 457.39 134.86" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 316.01 133.93 M 319.86 134.36 C 372.38 136.57 425.51 135.35 457.58 135.82 M 317.67 134.61 C 374.48 134.08 429.67 132.85 458.4 134.37" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" text-anchor="middle" font-size="12px">
+            <text x="387.5" y="125.5">
+                ConcreteStrategyA
+            </text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" pointer-events="none" clip-path="url(#mx-clip-322-139-132-26-0)" font-size="12px">
+            <text x="323.5" y="151.5">
+                + doSomething()
+            </text>
+        </g>
+        <path d="M 108.23 26.55 M 110 27 C 146.89 25.1 176.38 28.41 206.75 26.93 M 111.49 28.82 C 144.8 25.97 180.21 27.73 210.14 27.12" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 206.04 24.34 C 206.04 24.34 206.04 24.34 206.04 24.34 M 206.04 24.34 C 206.04 24.34 206.04 24.34 206.04 24.34 M 208.45 27.78 C 208.79 27.24 209.19 26.7 209.54 26.4 M 208.41 27.66 C 208.64 27.29 209.03 26.9 209.78 26.23" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 213.31 26.4 M 212.59 27.15 C 211.14 27.8 209.29 30.15 206.99 30.56 M 213.11 27.62 C 211.32 28.77 209.38 29.52 206.26 31.07 M 206.61 31.08 C 207.01 30.12 207 29.49 207.78 27.62 M 206.12 30.88 C 207.11 29.52 207.66 28.59 207.94 27.38 M 207.88 27.57 C 207.9 26.32 207.29 25.02 206.47 23.78 M 207.95 27.61 C 207.49 26.19 207.02 25.3 206.22 23.81 M 205.61 23.64 C 209.03 24.86 211.38 26.47 213.56 28.02 M 206.76 23.68 C 208.85 24.75 211.39 26.53 212.97 27.21" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M -1.99 3.54 L 111.34 1.53 L 110.36 50.67 L 1.51 50.25" fill="#ffffff" stroke="none" pointer-events="none"/>
+        <path d="M 0.59 0.56 C 23.64 1.01 46.27 3.08 110.62 1.39 M 0.58 2.96 C 28.62 1.17 57.6 2.76 109.49 1.13 M 110.94 2.43 C 110.39 18.81 109.36 33.1 108.87 52.79 M 110.72 1.24 C 109.85 20.08 109.44 39.96 109.21 52.88 M 109.69 53.57 C 77.95 53.04 46.95 52.83 -0.09 52.28 M 110.24 51.07 C 87.33 53.88 63.93 52.53 0.42 52.95 M 1.43 53.32 C -2.02 42.08 -0.54 33.63 0.44 2.2 M 0.87 52.5 C 0.41 38.42 -0.26 27.34 0.96 2.69" fill="none" stroke="#000000" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 27px; margin-left: 55px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: none; white-space: nowrap; ">
+                                Context
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="55" y="31" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Context
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
