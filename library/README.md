@@ -40,7 +40,6 @@ There're many more categories, but the commonly used and mentioned are Creationa
   - [Observer Pattern](./behavioral-patterns/observer/README.md)
   - [State Pattern](./behavioral-patterns/state/README.md)
   - [Strategy Pattern](./behavioral-patterns/strategy/README.md)
-    - [Example 1](./behavioral-patterns/strategy/example-1/README.md)
 - **[Structural Patterns](./structural-patterns/README.md)**
   - [Decorator Pattern](./structural-patterns/decorator/README.md)
   - [Bridge Pattern](./structural-patterns/bridge/README.md)
