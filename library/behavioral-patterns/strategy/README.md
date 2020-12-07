@@ -48,6 +48,6 @@ You can also use strategies as functions, strategies are not required to be obje
 
 ## Examples
 
-| Example                          | Description                                           |
-| :------------------------------- | :---------------------------------------------------- |
-| [Example 1](example-1/README.md) | An `Error Notifier` that supports multiple platforms. |
+| Example                            | Description                                           |
+| :--------------------------------- | :---------------------------------------------------- |
+| [Example 1](./example-1/README.md) | An `Error Notifier` that supports multiple platforms. |
