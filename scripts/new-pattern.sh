@@ -27,6 +27,6 @@ select family in ${patterns_families[*]}; do
 
   sed -i "" "s/Pattern Name/${pattern_name} Pattern/" $directory/README.md
 
-  echo "Don't forget to add the pattern in the patterns catalogue and SUMMARY.md"
+  echo "Don't forget to run 'npm run gen:summary'"
   break
 done

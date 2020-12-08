@@ -4,6 +4,7 @@
   "description": "A TypeScript Design Patterns Library",
   "scripts": {
     "pattern:new": "./scripts/new-pattern.sh",
+    "gen:summary": "./scripts/generate-summary.js",
     "build": "tsc",
     "build:watch": "tsc -w",
     "test": "jest --verbose",
