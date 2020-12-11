@@ -19,6 +19,8 @@
     - [Command Pattern](./library/behavioral-patterns/command/README.md)
     - [Interpreter Pattern](./library/behavioral-patterns/interpreter/README.md)
     - [Iterator Pattern](./library/behavioral-patterns/iterator/README.md)
+    - [Mediator Pattern](./library/behavioral-patterns/mediator/README.md)
+      - [Example 1](./library/behavioral-patterns/mediator/example-1/README.md)
     - [Memento Pattern](./library/behavioral-patterns/memento/README.md)
     - [Observer Pattern](./library/behavioral-patterns/observer/README.md)
     - [State Pattern](./library/behavioral-patterns/state/README.md)

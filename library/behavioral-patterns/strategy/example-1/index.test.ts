@@ -1,6 +1,6 @@
 import { EmailNotifier, ErrorNotifier, SlackNotifier } from '.';
 
-describe('Strategy Pattern', () => {
+describe('Strategy Pattern/Example 1', () => {
   let errorNotifier: ErrorNotifier;
   let slackNotifySpy: jest.SpyInstance;
   let emailNotifySpy: jest.SpyInstance;

@@ -34,6 +34,7 @@ There're many more categories, but the commonly used and mentioned are Creationa
   - [Command Pattern](./behavioral-patterns/command/README.md)
   - [Interpreter Pattern](./behavioral-patterns/interpreter/README.md)
   - [Iterator Pattern](./behavioral-patterns/iterator/README.md)
+  - [Mediator Pattern](./behavioral-patterns/mediator/README.md)
   - [Memento Pattern](./behavioral-patterns/memento/README.md)
   - [Observer Pattern](./behavioral-patterns/observer/README.md)
   - [State Pattern](./behavioral-patterns/state/README.md)

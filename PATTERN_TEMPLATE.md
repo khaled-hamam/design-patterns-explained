@@ -16,11 +16,15 @@ When to use this pattern.
 
 A UML diagram for the pattern structure, and a description for the main components in the pattern and how they interact with each other.
 
+<p align="center">
+  <img alt="Pattern Name Structure" src="figures/structure.drawio.svg">
+</p>
+
 ## Pros and Cons
 
-| Pros     | Cons     |
-| :------- | :------- |
-| 🟢 A Pro | 🔴 A Con |
+🟢 A Pro
+
+🔴 A Con
 
 ## Related Patterns
 
@@ -32,6 +36,6 @@ Notes sections if there are any notes.
 
 ## Examples
 
-| Example   | Description           |
-| :-------- | :-------------------- |
-| Example 1 | Example 1 Description |
+| Example                          | Description           |
+| :------------------------------- | :-------------------- |
+| [Example 1](example-1/README.md) | Example 1 Description |
