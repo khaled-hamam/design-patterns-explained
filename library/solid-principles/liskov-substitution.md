@@ -41,7 +41,7 @@ class Rectangle implements Shape {
   }
 }
 
-class Rectangle implements Shape {
+class Square implements Shape {
   private _sideLength: number;
 
   public setWidth(value) {
@@ -89,7 +89,7 @@ class Rectangle implements Shape {
   }
 }
 
-class Rectangle implements Shape {
+class Square implements Shape {
   private _sideLength: number;
 
   public setSideLength(value) {
