@@ -36,6 +36,6 @@ Notes sections if there are any notes.
 
 ## Examples
 
-| Example                          | Description           |
-| :------------------------------- | :-------------------- |
-| [Example 1](example-1/README.md) | Example 1 Description |
+| Example                | Description           |
+| :--------------------- | :-------------------- |
+| [Example 1](README.md) | Example 1 Description |
