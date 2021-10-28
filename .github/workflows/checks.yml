@@ -26,3 +26,5 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'yes'
+      - name: Github Spellcheck
+        uses: igsekor/pyspelling-any@v1.0.4
