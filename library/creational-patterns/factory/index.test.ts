@@ -1,3 +1,4 @@
+import { HttpError } from './example_3';
 import { Shape, IShapeFactory, ShapeFactory } from './example_2';
 import {
   Asteroid,
@@ -49,6 +50,13 @@ describe('Factory Pattern', () => {
       const shape: Shape = factory.createShape('Rectangle');
 
       expect(shape.draw()).toBe('Rectangle');
+    });
+  });
+
+  describe('Example 3 Tests', () => {
+    it('should throw NotFoundError', () => {
+      const error: HttpError = HttpError.NotFoundError('The resource you requested is not found.');
+      expect(error.statusCode).toBe(404);
     });
   });
 });
