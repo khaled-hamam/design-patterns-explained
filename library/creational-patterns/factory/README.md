@@ -33,5 +33,6 @@ Factory method can have 2 types of implementations:
 | :-----------------------: | :-----: |
 | [Example 1](example_1.ts) | // TODO |
 | [Example 2](example_2.ts) | // TODO |
+| [Example 3](example_3.ts) | // TODO |
 
 You can find the tests [here](index.test.ts).
